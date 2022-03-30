@@ -12,8 +12,9 @@
 %%% lines to page %%%%
     \include{lines}
 %%% end lines to page %%%
-
-
+    \tableofcontents
+    \newpage
+    
     \section{Kühlsysteme}\label{sec:kuehlsysteme}
 
     \subsection{\color{red}Nenne PC-Komponenten, die gekühlt werden müssen?}\label{subsec:color{red}nenne-pc-komponenten-die-gekühlt-werden-müssen?}
@@ -69,7 +70,6 @@
         \end{tabular}
     \end{center}
 
-
     \section{Ergonomie}\label{sec:ergonomie}
 
     \subsection{\color{red}Nenne Größen der Temperatur, der Lautstärke und der Luftfeuchtigkeit für ein gutes Raumklima}\label{subsec:color{red}nenne-größen-der-temperatur-der-lautstärke-und-der-luftfeuchtigkeit-für-ein-gutes-raumklima}
@@ -124,7 +124,6 @@
 
     \paragraph{\color{codegreen} Eine \color{red}ergonomische Maus \color{codegreen} ist vertikal aufgebaut, wodurch Elle und Speichel parallel übereinander stehen und somit Sehnen, Muskeln und Nerven so wenig wie möglich belastet werden.}
 
-
     \section{Prozessor}\label{sec:prozessor}
     \begin{wrapfigure}{r}{.3\textwidth}
         \centering
@@ -134,9 +133,9 @@
         \label{fig:bridges}
     \end{wrapfigure}
 
-    \subsection{Beschreibe die Aufgaben der North- und Southbridge eines Chipsatzes}\label{subsec:beschreibe-die-aufgaben-der-north--und-southbridge-eines-chipsatzes}
+    \subsection{\color{red}Beschreibe die Aufgaben der North- und Southbridge eines Chipsatzes}\label{subsec:beschreibe-die-aufgaben-der-north--und-southbridge-eines-chipsatzes}
 
-    \subsubsection{Northbridge}
+    \subsubsection{\color{codegreen}Northbridge}
 
     \paragraph{\color{codegreen}Der Hochgeschwindigkeitsteil einer gemeinsamen Chipsatzarchitektur in einem Computer. Die Northbridge ist der Controller, der die CPU über den Frontside-Bus (FSB) mit dem Speicher verbindet. Es verbindet auch Peripheriegeräte über Hochgeschwindigkeitskanäle wie PCI Express. Die Northbridge kann einen Anzeigecontroller enthalten, wodurch die Notwendigkeit einer separaten Grafikkarte entfällt.}
 
@@ -148,7 +147,7 @@
         \item PCI-Express (PCIe)
     \end{itemize}
 
-    \subsubsection{Southbridge}
+    \subsubsection{\color{codegreen}Southbridge}
 
     \paragraph{\color{codegreen}Der Southbridge-Controller verarbeitet die restlichen I/O, einschließlich PCI-Bus, parallele und Serial ATA-Laufwerke (IDE), USB, FireWire, serielle und parallele Anschlüsse und Audioanschlüsse. Frühere Chipsätze unterstützten den ISA-Bus in der Southbridge. Beginnend mit den 8xx-Chipsätzen von Intel wurden Northbridge und Southbridge in Memory Controller und I/O Controller geändert}
 
@@ -160,9 +159,9 @@
         \item Eingebautes Audio
     \end{itemize}
 
-    \subsection{Beschreibe die Aufbau eines modernen Chipsatzes mit einem Platform Controller Hub bzw. Fusion Controller Hub (ohne Northbridge)}\label{subsec:beschreibe-die-aufbau-eines-modernen-chipsatzes-mit-einem-platform-controller-hub-bzw.-fusion-controller-hub-(ohne-northbridge)}
+    \subsection{\color{red}Beschreibe die Aufbau eines modernen Chipsatzes mit einem Platform Controller Hub bzw. Fusion Controller Hub (ohne Northbridge)}\label{subsec:beschreibe-die-aufbau-eines-modernen-chipsatzes-mit-einem-platform-controller-hub-bzw.-fusion-controller-hub-(ohne-northbridge)}
 
-    \subsubsection{Platform Controller Hub (PCH)}
+    \subsubsection{\color{codegreen}Platform Controller Hub (PCH)}
     \paragraph{\color{codegreen}Im Jahr 2008 wurde mit der Einführung des Chipsatzes der Intel 5-Serie die Northbridge/Southbridge-Architektur durch die Platform Controller Hub (PCH)-Architektur ersetzt. In dieser Architektur wird die Southbridge-Funktionalität vom PCH-Chip verwaltet, der über das DMI direkt mit der CPU verbunden ist.\newline
     Die meisten Northbridge-Funktionen wurden in die CPU integriert, während der PCH die restlichen Funktionen zusätzlich zu den traditionellen Rollen der Southbridge übernahm. In der PCH-Architektur sind die RAM- und PCIe-Datenpfade direkt mit der CPU verbunden. Beispiele für x86-Architekturen, bei denen die Northbridge in die CPU integriert ist, sind Intels Sandy Bridge und AMDs Fusion.\newline}
 
@@ -175,13 +174,13 @@
         \end{figure}
     \end{center}
 
-    \subsubsection{Fusion controller hubs (FCH)}
+    \subsubsection{\color{codegreen}Fusion controller hubs (FCH)}
 
     \paragraph{\color{codegreen}{\fbseries Die Fusion Controller Hubs ähneln in ihrer Funktion dem Platform Controller Hub (PCH) von Intel. } Für AMD APU-Modelle von 2011 bis 2016. AMD vermarktet seine Chipsätze als Fusion Controller Hubs (FCH) und implementiert sie 2017 zusammen mit der Veröffentlichung der Zen-Architektur in seiner gesamten Produktpalette. Davor verwendeten nur APUs FCHs, während ihre anderen CPUs noch eine Northbridge und Southbridge verwendeten.}
 
-    \subsection{Beschreibe die Begriffe ALU, FPU und FLOPS}\label{subsec:beschreibe-die-begriffe-alu-fpu-und-flops}
+    \subsection{\color{red}Beschreibe die Begriffe ALU, FPU und FLOPS}\label{subsec:beschreibe-die-begriffe-alu-fpu-und-flops}
 
-    \subsubsection{arithmetic logic unit (ALU)}
+    \subsubsection{\color{codegreen}arithmetic logic unit (ALU)}
 
     \paragraph{\color{codegreen} Eine arithmetisch-logische Einheit ist ein elektronisches Rechenwerk, welches in Prozessoren zum Einsatz kommt. { \fbseries Die ALU berechnet arithmetische und logische Funktionen.}}
 
@@ -202,24 +201,24 @@
         \item Bitverschiebung
     \end{itemize}
 
-    \subsubsection{Floating Point Unit (FPU)}
+    \subsubsection{\color{codegreen}Floating Point Unit (FPU)}
 
     \paragraph{\color{codegreen} Eine Gleitkommaeinheit (FPU) ist ein Teil eines Computersystems, das speziell dafür ausgelegt ist, Operationen mit Gleitkommazahlen auszuführen. Typische Operationen sind Addition, Subtraktion, Multiplikation, Division und Quadratwurzel. Einige FPUs können auch verschiedene transzendente Funktionen wie exponentielle oder trigonometrische Berechnungen ausführen, aber die Genauigkeit kann sehr gering sein, sodass einige Systeme es vorziehen, diese Funktionen in Software zu berechnen.}
 
-    \subsubsection{Floating Point Operations Per Second (FLOPS)}
+    \subsubsection{\color{codegreen}Floating Point Operations Per Second (FLOPS)}
 
     \paragraph{\color{codegreen} Die Anzahl der Gleitkommaoperationen, die eine Recheneinheit (Prozessor oder gesamtes Rechnersystem) pro Sekunde ausführen kann. FLOPS werden als Maßeinheit benutzt, um die Rechenleistung von Systemen zu beschreiben..}
 
-    \subsection{Erläutere die technische Angabe der Fertigungstechnik(z.B.7nm)}\label{subsec:erläutere-die-technische-angabe-der-fertigungstechnik(z.b.7nm)}
+    \subsection{\color{red}Erläutere die technische Angabe der Fertigungstechnik(z.B.7nm)}\label{subsec:erläutere-die-technische-angabe-der-fertigungstechnik(z.b.7nm)}
 
     \paragraph{\color{codegreen}7 Nanometer bezieht sich auf die Größe der beteiligten Transistoren. Je kleiner der Transistor ist, desto mehr passt auf ein Stück Silizium und desto leistungsfähiger und komplexer können die aus diesen Transistoren aufgebauten Komponenten sein.}
 
     \paragraph{\large{TO DO}}
 
-    \subsection{Erkläre den Nutzen und den Aufbau von Cache-Speicher}\label{subsec:erkläre-den-nutzen-und-den-aufbau-von-cache-speicher}
+    \subsection{\color{red}Erkläre den Nutzen und den Aufbau von Cache-Speicher}\label{subsec:erkläre-den-nutzen-und-den-aufbau-von-cache-speicher}
 
     \paragraph{\color{codegreen} Der Cache-Speicher oder Cache Memory ist eine chipbasierte Computerkomponente, die das Abrufen von Daten aus dem Speicher des Computers effizienter macht. Er dient als temporärer Speicherbereich, aus dem der Prozessor des Computers Daten leicht abrufen kann. Dieser temporäre Speicherbereich, der als Cache bezeichnet wird, steht dem Prozessor leichter und schneller zur Verfügung als der Hauptarbeitsspeicher (Main Memory) des Computers, normalerweise eine Form von DRAM.}
-    \subsubsection{Arten von Cache Memory}
+    \subsubsection{\color{codegreen}Arten von Cache Memory}
 
     \paragraph{\color{red}Cache-Speicher ist schnell und teuer. Traditionell wird er in „Ebenen“ (Levels) kategorisiert, die seine Nähe und Zugänglichkeit zum Mikroprozessor beschreiben. Es gibt drei allgemeine Cache-Ebenen:}
     \begin{itemize}
@@ -234,14 +233,13 @@
         Wenn ein L3-Cache auf eine Anweisung verweist, wird er normalerweise auf eine höhere Cache-Ebene angehoben.
     \end{itemize}
 
-    \subsection{Beschreibe die Programmiersprache Assembler}\label{subsec:beschreibe-die-programmiersprache-assembler}
+    \subsection{\color{red}Beschreibe die Programmiersprache Assembler}\label{subsec:beschreibe-die-programmiersprache-assembler}
     \paragraph{\color{codegreen} Assemblersprache ist jede Low-Level-Programmiersprache, in der eine sehr starke Entsprechung zwischen den Anweisungen in der Sprache und den Maschinencodeanweisungen der Architektur besteht.
     Assemblercode wird durch ein Dienstprogramm, das als Assembler bezeichnet wird, in ausführbaren Maschinencode umgewandelt. }
-
-
+    
     \section{Monitore}\label{sec:monitore}
 
-    \subsection{Unterscheide die Panelarten TN, VA, IPS anhand von technischen Eigenschaften voneinander}\label{subsec:unterscheide-die-panelarten-tn-va-ips-anhand-von-technischen-eigenschaften-voneinander}
+    \subsection{\color{red}Unterscheide die Panelarten TN, VA, IPS anhand von technischen Eigenschaften voneinander}\label{subsec:unterscheide-die-panelarten-tn-va-ips-anhand-von-technischen-eigenschaften-voneinander}
     \paragraph{\color{codegreen} Bei Flüssigkristall Monitor strahlt Licht durch rote, grüne und blaue Farbfilter. Die Flüssigkristalle lassen mal mehr, mal weniger dieses Licht durch und mischen so die Farben zusammen.\\
     Bei \color{red}{\fbseries TN-Panels }\color{codegreen} wechseln die Kristalle die Ausrichtung von horizontal auf vertikal. Bei \color{red}{\fbseries AV-Panels }\color{codegreen} genau umgekerht. Bei \color{red}{\fbseries IPS-Panels }\color{codegreen} drehen sich die Kristalle auf gleicher Ebene um 90 Grad.}
     \begin{center}
@@ -254,13 +252,13 @@
         \end{figure}
     \end{center}
 
-    \subsection{Erkläre, wie ein Pixel aufgebaut ist?}\label{subsec:erkläre-wie-ein-pixel-aufgebaut-ist?}
+    \subsection{\color{red}Erkläre, wie ein Pixel aufgebaut ist?}\label{subsec:erkläre-wie-ein-pixel-aufgebaut-ist?}
 
     \paragraph{\color{codegreen} Ein Pixel ist aus mehreren Subpixeln aufgebaut, die auf Monitoren und anderen Displays in Rot, Grün und Blau (RGB) wiedergegeben werden. Je nach Zusammensetzung dieser drei Farben entsteht ein bestimmter Farbton, der in Kombination mit meist Millionen anderer Bildpunkte das Gesamtbild ergibt.}
 
-    \subsection{Beschreibe die LCD- und OLED-Technik mit einfachen Worten}\label{subsec:beschreibe-die-lcd--und-oled-technik-mit-einfachen-worten}
+    \subsection{\color{red}Beschreibe die LCD- und OLED-Technik mit einfachen Worten}\label{subsec:beschreibe-die-lcd--und-oled-technik-mit-einfachen-worten}
     \begin{multicols}{2}
-        \subsubsection{LCD-Bildschirm}
+        \subsubsection{\color{codegreen}LCD-Bildschirm}
         \begin{itemize}
             \color{magenta}
             \item Beim LCD-Bildschirm werden Flüssigkristalle eingesetzt.
@@ -270,7 +268,7 @@
             \item Die Kristalle können einzeln ausgerichtet werden, so dass sie weniger oder mehr Licht durchlassen und die jeweilige Farbe wiedergeben.
         \end{itemize}
 
-        \subsubsection{OLED-Bildschirm}
+        \subsubsection{\color{codegreen}OLED-Bildschirm}
         \begin{itemize}
             \color{magenta}
             \item Der OLED-Bildschirm benötigt keine Hintergrundbeleuchtung.
@@ -281,27 +279,27 @@
             Die Stromstärke reguliert die Helligkeit.
         \end{itemize}
     \end{multicols}
-    \subsection{Erkläre, technische Angaben zu einem Monitor (Bildwiederholungsrate, Auflösung, Pixeldichte,
+    \subsection{\color{red}Erkläre, technische Angaben zu einem Monitor (Bildwiederholungsrate, Auflösung, Pixeldichte,
         Größe (Zoll), Seitenverhältnis)}\label{subsec:erkläre-technische-angaben-zu-einem-monitor-(bildwiederholungsrate-auflösung-pixeldichte
     --------größe-(zoll)-seitenverhältnis)}
 
-    \subsubsection{Bildwiederholungsrate (Bildwiederholfrequenz)}
+    \subsubsection{\color{codegreen}Bildwiederholungsrate (Bildwiederholfrequenz)}
 
     \paragraph{\color{codegreen} Die Bildwiederholfrequenz besagt, wie oft sich ein Vorgang pro Sekunde wiederholt. Ein 50-Hertz-Fernseher zeigt Bilder fünfzig Mal pro Sekunde, ein 100-Hertz-Gerät hundert Mal und so weiter.}
 
-    \subsubsection{Auflösung}
+    \subsubsection{\color{codegreen}Auflösung}
 
     \paragraph{\color{codegreen} Die Auflösung eines Bildes wird in der Regel in „ppi“ (pixels per inch) angegeben und beschreibt, wie viele Pixel (digitale Bildpunkte) auf der Länge von einem inch/Zoll (2.54 cm) vorhanden sind.}
 
-    \subsubsection{Pixeldichte}
+    \subsubsection{\color{codegreen}Pixeldichte}
 
     \paragraph{\color{codegreen} Die Pixeldichte von Displays ist ein Maß für den Grad des Auflösungsvermögens, wobei der Wert üblicherweise in dpi ausgedrückt wird. Dpi steht für „Punkte pro Zoll“ („Dots per Inch“, nicht pro Quadratzoll). Ein Zoll entspricht 2,54 Zentimeter.}
 
-    \subsubsection{Größe (Zoll)}
+    \subsubsection{\color{codegreen}Größe (Zoll)}
 
     \paragraph{\color{codegreen} Ein Zoll ist etwas länger, als zweieinhalb Zentimeter, genau gilt: 1" = 2,54 cm. Das internationale Zoll wird als übliches Längenmaß vor allem noch in den USA verwendet sowie für festgelegte Größenangaben in der Technik.}
 
-    \subsubsection{Seitenverhältnis}
+    \subsubsection{\color{codegreen}Seitenverhältnis}
 
     \paragraph{\color{codegreen} Unter Seitenverhältnis im weiteren Sinne versteht man das Verhältnis von mindestens zwei unterschiedlich langen Seiten eines Polygons. Meistens wird damit das Verhältnis der Breite eines Rechtecks zu seiner Höhe angegeben. Ein Quadrat hat das Seitenverhältnis 1:1.}
     \begin{center}
@@ -321,14 +319,13 @@
         \end{tabular}
     \end{center}
 
-
     \section{Softwarelizenzen}\label{sec:softwarelizenzen}
 
-    \subsection{Was sind Software-Lizenzen?}\label{subsec:was-sind-software-lizenzen?}
+    \subsection{\color{red}Was sind Software-Lizenzen?}\label{subsec:was-sind-software-lizenzen?}
 
     \paragraph{Es handelt sich um eine rechtsverbindliche Vereinbarung zwischen Endnutzer und Softwarehersteller. Durch die Lizenz werden die Nutzungsbedingungen bis ins Detail geregelt. Die Lizenz ist also ein Vertrag, mit dem Urheber die Rechte an ihrem geistigen Eigentum auf andere überträgt. Dies geht immer mit einer direkten oder indirekten Gegenleistung einher, oder die Übertragung findet nur unter bestimmten Bedingungen statt}
 
-    \subsection{beschreibe, Lizenzmodelle und -arten mit wenigen Worten}\label{subsec:beschreibe-lizenzmodelle-und--arten-mit-wenigen-worten}
+    \subsection{\color{red}beschreibe, Lizenzmodelle und -arten mit wenigen Worten}\label{subsec:beschreibe-lizenzmodelle-und--arten-mit-wenigen-worten}
     \begin{center}
         \begin{tabular}{|l|l|}
             \hline
@@ -353,7 +350,7 @@
     \end{center}
 
     \section{Green-IT}\label{sec:green-it}
-    \subsection{Ziele der Green-IT}\label{subsec:ziele-der-green-it}
+    \subsection{\color{red}Ziele der Green-IT}\label{subsec:ziele-der-green-it}
         \begin{itemize}
             \color{magenta}
             \item Reduzierung des Energieverbrauchs
@@ -364,7 +361,7 @@
             verbessern
             \item Langlebige Produkte herstellen
         \end{itemize}
-    \subsection{Erleuterung und Bennenug der Maßnahmen zur Reduzierung der Umweltbelastung}\label{subsec:erleuterung-und-bennenug-der-maßnahmen-zur-reduzierung-der-umweltbelastung}
+    \subsection{\color{red}Erleuterung und Bennenug der Maßnahmen zur Reduzierung der Umweltbelastung}\label{subsec:erleuterung-und-bennenug-der-maßnahmen-zur-reduzierung-der-umweltbelastung}
         \begin{multicols}{2}
             \begin{enumerate}
                 \color{magenta}
@@ -422,13 +419,13 @@
                 \end{itemize}
             \end{enumerate}
         \end{multicols}
-    \subsection{Umwelt-Prüfzeichen mit den grundlegenden Zielen}\label{subsec:umwelt-prüfzeichen-mit-den-grundlegenden-zielen}
+    \subsection{\color{red}Umwelt-Prüfzeichen mit den grundlegenden Zielen}\label{subsec:umwelt-prüfzeichen-mit-den-grundlegenden-zielen}
         \begin{multicols}{2}
             \begin{figure}[H]
                 \centering
                 \includegraphics[height=2cm]{media/estar}
                 \captionsetup{labelformat=empty}
-                \caption{Das Programm wurde 1992 von der US-
+                \caption{\color{orange} Das Programm wurde 1992 von der US-
                 Umweltschutzbehörde ins Leben gerufen,
                     wobei Computer und Monitore diese
                     Auszeichnung erhielten. Heutzutage findet
@@ -441,7 +438,7 @@
                 \centering
                 \includegraphics[height=2cm]{media/tco-certified}
                 \captionsetup{labelformat=empty}
-                \caption{Zeichnet Produkte wie Monitore,
+                \caption{\color{orange}Zeichnet Produkte wie Monitore,
                     Drucker oder Mobiltelefone aus, die
                     benutzer- und umweltfreundlich und
                     energieeffizient sind}
@@ -451,7 +448,7 @@
                 \centering
                 \includegraphics[height=2cm]{media/ECOLABEL}
                 \captionsetup{labelformat=empty}
-                \caption{Das Zeichen wird für Produkte und
+                \caption{\color{orange}Das Zeichen wird für Produkte und
                 Dienstleistungen vergeben, die eine
                 geringere Umweltbelastung aufweisen als
                 vergleichbare Produkte. Das EU-
@@ -464,11 +461,38 @@
                 \centering
                 \includegraphics[height=2cm]{media/TUEV-Rheinland-Logo2.svg}
                 \captionsetup{labelformat=empty}
-                \caption{Das Zertifikat "Energieeffizientes
+                \caption{\color{orange}Das Zertifikat "Energieeffizientes
                 Rechenzentrum" garantiert, dass sich das
                 Unternehmen der Nachhaltigkeit verpflichtet
                 fühlt.}
                 \label{fig:TUEV}
             \end{figure}
         \end{multicols}
+    
+    \section{Netzteile und Kostenberechnung}\label{sec:netzteile-und-kostenberechnung}
+        \subsection{\color{red}die Hauptfunktion von PC-Netzteilen}\label{subsec:color{red}die-hauptfunktion-von-pc-netzteilen}
+        \paragraph{\color{codegreen} Das Computer-Netzteil wandelt den Wechselstrom (AC) 230 Volt aus einer Netzsteckdose in Niedervolt-Gleichstrom (DC) (3,3), (5) und (12) Volt zum Betrieb von Mainboard, Prozessor und Peripheriegeräten um.}
+    \subsection{\color{red}den Stecker Main Power}\label{subsec:color{red}den-stecker-main-power}
+        \begin{center}
+            \begin{figure}[H]
+                \centering
+                \includegraphics[height=5cm]{media/netzteile}
+                \captionsetup{labelformat=empty}
+                \caption{\color{orange} Main Power Stecker ist erste Stecker oben links }
+                \label{fig:netzteile}
+            \end{figure}
+        \end{center}
+    \subsection{\color{red}Erläuter die Bedeutung des 80-Plus-Zertifikates}\label{subsec:color{red}erläuter-die-bedeutung-des-80-plus-zertifikates}
+        \paragraph{\color{codegreen} Das 80plus  ist eine initiative um Energie effizientere Netzteile besser vermarkten zu können und auch dementsprechend auszeichnen zu können.\color{blue}80 plus bedeutet, das Netzteil muss bei 20, 50
+        und 100 Prozent last, mindestens einen Wirkungsgrad von 80 aufweisen.\color{codegreen}Das heißt weniger als oder maximal 20 prozent der aufgenommenen Energie darf quasi in Wärme umgewandelt. Es muss halt mindestens 80 Prozent der Hardware die am Netzteil angeschlossen ist dann auch zur Verfügung stehen.}
+    \begin{center}
+        \begin{figure}[H]
+            \centering
+            \includegraphics[height=3cm]{media/80plus}
+            \captionsetup{labelformat=empty}
+            \caption{\color{orange} 80 PLUS ist eine nordamerikanische Initiative zur Förderung von PC-Netzteilen, die einen Wirkungsgrad von 80\% oder höher aufweisen. }
+            \label{fig:80plus}
+        \end{figure}
+    \end{center}
+    \subsection{\color{red}Berechnung der Energiekosten von elektrischen Geräten}\label{subsec:berechnung-der-energiekosten-von-elektrischen-geräten}
 \end{document}
