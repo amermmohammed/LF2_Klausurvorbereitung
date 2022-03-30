@@ -1,0 +1,78 @@
+\usepackage[top=2cm, bottom=2cm, left=1.5cm, right=1.5cm]{geometry}
+\usepackage[german]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{eso-pic}
+\usepackage{fontspec}   %%custom font
+\usepackage{graphicx}   %%images
+\setmainfont{[MahaloBrother.ttf]} %%costumfont
+\usepackage{sectsty}    %% colored sections
+\usepackage{datetime}
+\usepackage{multicol}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{tikz}
+\usetikzlibrary{matrix}
+\usepackage{caption}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage[most]{tcolorbox}
+%%%%
+%%% add lines to page  %%%
+\usepackage{tikzpagenodes}
+\usepackage{lipsum}
+\usepackage{background}
+%%%%
+
+
+
+
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    pdftitle={Overleaf Example},
+    pdfpagemode=FullScreen,
+    }
+
+
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{ITB16-LF2}
+\fancyhead[CE,CO]{LF2-Klausur}
+\fancyfoot[CE,CO]{\Large{LF2-Klausur Vorbereitung}}
+\rhead{\today}
+\rfoot{Seite \thepage}
+\lfoot{\href{mailto://ammohammed@schueler.berufskolleg.de}{Amer M. Mohammed}}
+
+
+\usepackage{smartdiagram}
+\usepackage{\dtklogos}
+
+\usepackage{listings}
+\usepackage[table,xcdraw]{xcolor}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    pdftitle={Overleaf Example},
+    pdfpagemode=FullScreen,
+    }
+    
+\usepackage{amsmath}
+
+
+
+\usepackage{xfakebold}
+
+\newcommand{\fbseries}{\unskip\setBold\aftergroup\unsetBold\aftergroup\ignorespaces}
+\makeatletter
+\newcommand{\setBoldness}[1]{\def\fake@bold{#1}}
+\makeatother
+\setBoldness{0.4}%
