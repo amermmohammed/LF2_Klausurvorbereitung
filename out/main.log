@@ -1,10 +1,10 @@
-This is LuaHBTeX, Version 1.15.0 (MiKTeX 22.3) (format=lualatex 2022.3.31)  31 MAR 2022 09:55
+This is LuaHBTeX, Version 1.15.0 (MiKTeX 22.3) (format=lualatex 2022.3.31)  31 MAR 2022 13:41
  restricted system commands enabled.
  file:line:error style messages enabled.
 **main.tex
 (./main.tex
 LaTeX2e <2021-11-15> patch level 1
-Lua module: luaotfload 2022-02-27 3.20 Lua based OpenType font support
+Lua module: luaotfload 2022-03-18 3.21 Lua based OpenType font support
 Lua module: lualibs 2021-05-20 2.74 ConTeXt Lua standard libraries.
 Lua module: lualibs-extended 2021-05-20 2.74 ConTeXt Lua libraries -- extended c
 ollection.
@@ -1558,7 +1558,7 @@ LaTeX Info: Redefining \nameref on input line 7.
 \openout2 = titlepage.aux
 
 (./titlepage.tex
-<logo-3.png, id=253, 281.05pt x 180.675pt>
+<logo-3.png, id=281, 281.05pt x 180.675pt>
 File: logo-3.png Graphic file (type png)
 <use logo-3.png>
 Package luatex.def Info: logo-3.png  used on input line 5.
@@ -1637,10 +1637,10 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 )
-<media/bglf2.png, id=254, 115.632pt x 173.448pt>
+<media/bglf2.png, id=282, 115.632pt x 173.448pt>
 File: media/bglf2.png Graphic file (type png)
 <use media/bglf2.png>
-Package luatex.def Info: media/bglf2.png  used on input line 9.
+Package luatex.def Info: media/bglf2.png  used on input line 10.
 (luatex.def)             Requested size: 597.54227pt x 845.09375pt.
  [1{H:/Users/amer/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 
@@ -1648,11 +1648,6 @@ Package luatex.def Info: media/bglf2.png  used on input line 9.
 <./media/bglf2.png><./logo-3.png>]
 \openout2 = lines.aux
  (./lines.tex)
-("G:/BK Hilden/LF2/ITB16_LF2_Klausurvorbereitung/out/main.toc")
-\tf@toc=\write5
-
-\openout5 = main.toc
-
 warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 [1
 
@@ -1660,107 +1655,112 @@ warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 
 
 
-] [2]
+] ("G:/BK Hilden/LF2/ITB16_LF2_Klausurvorbereitung/out/main.toc" [2])
+\tf@toc=\write5
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 20.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 33.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 49.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 51.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 62.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 75.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 93.
+\openout5 = main.toc
 
 [3]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 108.
+(hyperref)                removing `\@ifnextchar' on input line 28.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 121.
+(hyperref)                removing `\@ifnextchar' on input line 41.
 
-<media/sb-nb.png, id=338, 451.6875pt x 651.43375pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 57.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 59.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 70.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 83.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 101.
+
+[4]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 116.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 129.
+
+<media/sb-nb.png, id=381, 451.6875pt x 651.43375pt>
 File: media/sb-nb.png Graphic file (type png)
 <use media/sb-nb.png>
-Package luatex.def Info: media/sb-nb.png  used on input line 130.
+Package luatex.def Info: media/sb-nb.png  used on input line 138.
 (luatex.def)             Requested size: 90.33589pt x 130.28444pt.
 
-Underfull \hbox (badness 6300) in paragraph at lines 132--132
+Underfull \hbox (badness 6300) in paragraph at lines 140--140
 []\TU/[MahaloBrother.ttf](0)/m/n/9 Der Northbridge-Teil des Chip-sat-zes
  []
 
 
-Underfull \hbox (badness 2384) in paragraph at lines 132--132
+Underfull \hbox (badness 2384) in paragraph at lines 140--140
 \TU/[MahaloBrother.ttf](0)/m/n/9 steu-ert die Hoch-ge-schwin-dig-keits-ka-
  []
 
 
-Underfull \hbox (badness 4779) in paragraph at lines 132--132
+Underfull \hbox (badness 4779) in paragraph at lines 140--140
 \TU/[MahaloBrother.ttf](0)/m/n/9 rä-te mit nied-ri-ge-rer Ge-schwin-dig-keit
  []
 
 
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 13
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 14
+4.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 144.
+
+
+Package wrapfig Warning: Stationary wrapfigure forced to float on input line 14
 6.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 136.
-
-
-Package wrapfig Warning: Stationary wrapfigure forced to float on input line 13
-8.
+(hyperref)                removing `\@ifnextchar' on input line 146.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 138.
+(hyperref)                removing `\@ifnextchar' on input line 158.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 150.
+(hyperref)                removing `\@ifnextchar' on input line 170.
 
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 162.
-
-[4<./media/sb-nb.png>]
+[5<./media/sb-nb.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 164.
+(hyperref)                removing `\@ifnextchar' on input line 172.
 
-<media/PCHVSN-S-bridge.png, id=353, 931.48pt x 357.335pt>
+<media/PCHVSN-S-bridge.png, id=396, 931.48pt x 357.335pt>
 File: media/PCHVSN-S-bridge.png Graphic file (type png)
 <use media/PCHVSN-S-bridge.png>
-Package luatex.def Info: media/PCHVSN-S-bridge.png  used on input line 171.
+Package luatex.def Info: media/PCHVSN-S-bridge.png  used on input line 179.
 (luatex.def)             Requested size: 370.83717pt x 142.26378pt.
 
-./main.tex:172: Package caption Error: `label-format' undefined in families `ca
+./main.tex:180: Package caption Error: `label-format' undefined in families `ca
 ption'.
 
 See the caption package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.172             \captionsetup{label-format=empty}
+l.180             \captionsetup{label-format=empty}
                                                  
 If you do not understand this error, please take a closer look
 at the documentation of the `caption' package, especially the
@@ -1770,78 +1770,70 @@ If that doesn't work, type  X <return>  to quit.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 177.
+(hyperref)                removing `\@ifnextchar' on input line 185.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 181.
+(hyperref)                removing `\@ifnextchar' on input line 189.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 183.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 204.
-
-[5<./media/PCHVSN-S-bridge.png>]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 208.
+(hyperref)                removing `\@ifnextchar' on input line 191.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\@ifnextchar' on input line 212.
 
+[6<./media/PCHVSN-S-bridge.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 218.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 221.
+(hyperref)                removing `\@ifnextchar' on input line 216.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 236.
+(hyperref)                removing `\@ifnextchar' on input line 220.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 242.
+(hyperref)                removing `\@ifnextchar' on input line 226.
 
-<media/panals.png, id=367, 773.89125pt x 272.01625pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 229.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 244.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 250.
+
+<media/panals.png, id=410, 773.89125pt x 272.01625pt>
 File: media/panals.png Graphic file (type png)
 <use media/panals.png>
-Package luatex.def Info: media/panals.png  used on input line 248.
+Package luatex.def Info: media/panals.png  used on input line 256.
 (luatex.def)             Requested size: 404.76387pt x 142.26378pt.
-[6]
+[7]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 255.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 259.
+(hyperref)                removing `\@ifnextchar' on input line 263.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 261.
+(hyperref)                removing `\@ifnextchar' on input line 267.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 271.
+(hyperref)                removing `\@ifnextchar' on input line 269.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 283.
+(hyperref)                removing `\@ifnextchar' on input line 279.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 286.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 290.
+(hyperref)                removing `\@ifnextchar' on input line 291.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -1851,493 +1843,528 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\@ifnextchar' on input line 298.
 
-[7<./media/panals.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\@ifnextchar' on input line 302.
 
-<media/bs.jpg, id=394, 660.4675pt x 371.3875pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 306.
+
+[8<./media/panals.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 310.
+
+<media/bs.jpg, id=437, 660.4675pt x 371.3875pt>
 File: media/bs.jpg Graphic file (type jpg)
 <use media/bs.jpg>
-Package luatex.def Info: media/bs.jpg  used on input line 308.
+Package luatex.def Info: media/bs.jpg  used on input line 316.
 (luatex.def)             Requested size: 253.0059pt x 142.26378pt.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 324.
+(hyperref)                removing `\@ifnextchar' on input line 332.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 328.
+(hyperref)                removing `\@ifnextchar' on input line 336.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 353.
+(hyperref)                removing `\@ifnextchar' on input line 361.
 
-[8<./media/bs.jpg>]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 364.
-
+[9<./media/bs.jpg>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 422.
+(hyperref)                removing `\@ifnextchar' on input line 372.
 
-<media/estar.png, id=404, 222.8325pt x 227.85126pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 430.
+
+<media/estar.png, id=447, 222.8325pt x 227.85126pt>
 File: media/estar.png Graphic file (type png)
 <use media/estar.png>
-Package luatex.def Info: media/estar.png  used on input line 426.
+Package luatex.def Info: media/estar.png  used on input line 434.
 (luatex.def)             Requested size: 55.65018pt x 56.9055pt.
-<media/tco-certified.png, id=405, 501.875pt x 333.245pt>
+<media/tco-certified.png, id=448, 501.875pt x 333.245pt>
 File: media/tco-certified.png Graphic file (type png)
 <use media/tco-certified.png>
-Package luatex.def Info: media/tco-certified.png  used on input line 439.
+Package luatex.def Info: media/tco-certified.png  used on input line 447.
 (luatex.def)             Requested size: 85.70052pt x 56.9055pt.
-<media/ECOLABEL.png, id=406, 180.675pt x 179.67125pt>
+<media/ECOLABEL.png, id=449, 180.675pt x 179.67125pt>
 File: media/ECOLABEL.png Graphic file (type png)
 <use media/ECOLABEL.png>
-Package luatex.def Info: media/ECOLABEL.png  used on input line 449.
+Package luatex.def Info: media/ECOLABEL.png  used on input line 457.
 (luatex.def)             Requested size: 57.22168pt x 56.9055pt.
-<media/TUEV-Rheinland-Logo2.svg.png, id=407, 699.36281pt x 598.48593pt>
+<media/TUEV-Rheinland-Logo2.svg.png, id=450, 699.36281pt x 598.48593pt>
 File: media/TUEV-Rheinland-Logo2.svg.png Graphic file (type png)
 <use media/TUEV-Rheinland-Logo2.svg.png>
 Package luatex.def Info: media/TUEV-Rheinland-Logo2.svg.png  used on input line
- 462.
+ 470.
 (luatex.def)             Requested size: 66.49352pt x 56.9055pt.
-[9<./media/estar.png><./media/tco-certified.png><./media/ECOLABEL.png><./media/T
-UEV-Rheinland-Logo2.svg.png>]
+[10<./media/estar.png><./media/tco-certified.png><./media/ECOLABEL.png><./media/
+TUEV-Rheinland-Logo2.svg.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 473.
+(hyperref)                removing `\@ifnextchar' on input line 481.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 475.
+(hyperref)                removing `\@ifnextchar' on input line 483.
 
-<media/netzteile.png, id=428, 1028.34187pt x 590.205pt>
+<media/netzteile.png, id=472, 1028.34187pt x 590.205pt>
 File: media/netzteile.png Graphic file (type png)
 <use media/netzteile.png>
-Package luatex.def Info: media/netzteile.png  used on input line 479.
+Package luatex.def Info: media/netzteile.png  used on input line 487.
 (luatex.def)             Requested size: 247.8584pt x 142.26378pt.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 485.
+(hyperref)                removing `\@ifnextchar' on input line 493.
 
-<media/80plus.png, id=429, 152.424pt x 191.625pt>
+<media/80plus.png, id=473, 152.424pt x 191.625pt>
 File: media/80plus.png Graphic file (type png)
 <use media/80plus.png>
-Package luatex.def Info: media/80plus.png  used on input line 491.
+Package luatex.def Info: media/80plus.png  used on input line 499.
 (luatex.def)             Requested size: 67.89706pt x 85.35826pt.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 497.
+(hyperref)                removing `\@ifnextchar' on input line 505.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 498.
+(hyperref)                removing `\@ifnextchar' on input line 506.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\setbox' on input line 498.
+(hyperref)                removing `\setbox' on input line 506.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 498.
+(hyperref)                removing `\z@' on input line 506.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hbox' on input line 498.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                \kern 3.0pt
-(hyperref)                removed on input line 498.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\pdfextension' on input line 498.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\main@pdfcolorstack' on input line 498.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\aftergroup' on input line 498.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\pdfextension' on input line 498.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\main@pdfcolorstack' on input line 498.
+(hyperref)                removing `\hbox' on input line 506.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 3.0pt
-(hyperref)                removed on input line 498.
+(hyperref)                removed on input line 506.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\dimen@' on input line 498.
+(hyperref)                removing `\pdfextension' on input line 506.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\ht' on input line 498.
+(hyperref)                removing `\main@pdfcolorstack' on input line 506.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 498.
+(hyperref)                removing `\aftergroup' on input line 506.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\advance' on input line 498.
+(hyperref)                removing `\pdfextension' on input line 506.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\dimen@' on input line 498.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\fboxsep' on input line 498.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\ht' on input line 498.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 498.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\dimen@' on input line 498.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\dimen@' on input line 498.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\dp' on input line 498.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 498.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\advance' on input line 498.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\dimen@' on input line 498.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\fboxsep' on input line 498.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\dp' on input line 498.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 498.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\dimen@' on input line 498.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 498.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\pdfextension' on input line 498.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\main@pdfcolorstack' on input line 498.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\aftergroup' on input line 498.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\pdfextension' on input line 498.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\main@pdfcolorstack' on input line 498.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hbox' on input line 498.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 498.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\vrule' on input line 498.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\wd' on input line 498.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 498.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\ht' on input line 498.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 498.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\dp' on input line 498.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 498.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hss' on input line 498.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\box' on input line 498.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 498.
-
-[10<./media/netzteile.png><./media/80plus.png>]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 526.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\setbox' on input line 526.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 526.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hbox' on input line 526.
+(hyperref)                removing `\main@pdfcolorstack' on input line 506.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 3.0pt
-(hyperref)                removed on input line 526.
+(hyperref)                removed on input line 506.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\pdfextension' on input line 526.
+(hyperref)                removing `\dimen@' on input line 506.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\main@pdfcolorstack' on input line 526.
+(hyperref)                removing `\ht' on input line 506.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\aftergroup' on input line 526.
+(hyperref)                removing `\z@' on input line 506.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\pdfextension' on input line 526.
+(hyperref)                removing `\advance' on input line 506.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\main@pdfcolorstack' on input line 526.
+(hyperref)                removing `\dimen@' on input line 506.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\fboxsep' on input line 506.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\ht' on input line 506.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\z@' on input line 506.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\dimen@' on input line 506.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\dimen@' on input line 506.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\dp' on input line 506.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\z@' on input line 506.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\advance' on input line 506.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\dimen@' on input line 506.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\fboxsep' on input line 506.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\dp' on input line 506.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\z@' on input line 506.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\dimen@' on input line 506.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 506.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\pdfextension' on input line 506.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\main@pdfcolorstack' on input line 506.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\aftergroup' on input line 506.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\pdfextension' on input line 506.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\main@pdfcolorstack' on input line 506.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\hbox' on input line 506.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\z@' on input line 506.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\vrule' on input line 506.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\wd' on input line 506.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\z@' on input line 506.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\ht' on input line 506.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\z@' on input line 506.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\dp' on input line 506.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\z@' on input line 506.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\hss' on input line 506.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\box' on input line 506.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\z@' on input line 506.
+
+[11<./media/netzteile.png><./media/80plus.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 534.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\setbox' on input line 534.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\z@' on input line 534.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\hbox' on input line 534.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                \kern 3.0pt
-(hyperref)                removed on input line 526.
+(hyperref)                removed on input line 534.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\dimen@' on input line 526.
+(hyperref)                removing `\pdfextension' on input line 534.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\ht' on input line 526.
+(hyperref)                removing `\main@pdfcolorstack' on input line 534.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 526.
+(hyperref)                removing `\aftergroup' on input line 534.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\advance' on input line 526.
+(hyperref)                removing `\pdfextension' on input line 534.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\dimen@' on input line 526.
+(hyperref)                removing `\main@pdfcolorstack' on input line 534.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\fboxsep' on input line 526.
+(hyperref)                \kern 3.0pt
+(hyperref)                removed on input line 534.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\ht' on input line 526.
+(hyperref)                removing `\dimen@' on input line 534.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 526.
+(hyperref)                removing `\ht' on input line 534.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\dimen@' on input line 526.
+(hyperref)                removing `\z@' on input line 534.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\dimen@' on input line 526.
+(hyperref)                removing `\advance' on input line 534.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\dp' on input line 526.
+(hyperref)                removing `\dimen@' on input line 534.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 526.
+(hyperref)                removing `\fboxsep' on input line 534.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\advance' on input line 526.
+(hyperref)                removing `\ht' on input line 534.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\dimen@' on input line 526.
+(hyperref)                removing `\z@' on input line 534.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\fboxsep' on input line 526.
+(hyperref)                removing `\dimen@' on input line 534.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\dp' on input line 526.
+(hyperref)                removing `\dimen@' on input line 534.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 526.
+(hyperref)                removing `\dp' on input line 534.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\dimen@' on input line 526.
+(hyperref)                removing `\z@' on input line 534.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 526.
+(hyperref)                removing `\advance' on input line 534.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\pdfextension' on input line 526.
+(hyperref)                removing `\dimen@' on input line 534.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\main@pdfcolorstack' on input line 526.
+(hyperref)                removing `\fboxsep' on input line 534.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\aftergroup' on input line 526.
+(hyperref)                removing `\dp' on input line 534.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\pdfextension' on input line 526.
+(hyperref)                removing `\z@' on input line 534.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\main@pdfcolorstack' on input line 526.
+(hyperref)                removing `\dimen@' on input line 534.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hbox' on input line 526.
+(hyperref)                removing `\@ifnextchar' on input line 534.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 526.
+(hyperref)                removing `\pdfextension' on input line 534.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\vrule' on input line 526.
+(hyperref)                removing `\main@pdfcolorstack' on input line 534.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\wd' on input line 526.
+(hyperref)                removing `\aftergroup' on input line 534.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 526.
+(hyperref)                removing `\pdfextension' on input line 534.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\ht' on input line 526.
+(hyperref)                removing `\main@pdfcolorstack' on input line 534.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 526.
+(hyperref)                removing `\hbox' on input line 534.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\dp' on input line 526.
+(hyperref)                removing `\z@' on input line 534.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 526.
+(hyperref)                removing `\vrule' on input line 534.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hss' on input line 526.
+(hyperref)                removing `\wd' on input line 534.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\box' on input line 526.
+(hyperref)                removing `\z@' on input line 534.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 526.
+(hyperref)                removing `\ht' on input line 534.
 
-[11] ("G:/BK Hilden/LF2/ITB16_LF2_Klausurvorbereitung/out/main.aux"
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\z@' on input line 534.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\dp' on input line 534.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\z@' on input line 534.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\hss' on input line 534.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\box' on input line 534.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\z@' on input line 534.
+
+[12]
+<media/s_111.jpg, id=504, 501.875pt x 240.9pt>
+File: media/s_111.jpg Graphic file (type jpg)
+<use media/s_111.jpg>
+Package luatex.def Info: media/s_111.jpg  used on input line 615.
+(luatex.def)             Requested size: 59.2728pt x 28.45274pt.
+File: media/s_111.jpg Graphic file (type jpg)
+<use media/s_111.jpg>
+Package luatex.def Info: media/s_111.jpg  used on input line 622.
+(luatex.def)             Requested size: 59.2728pt x 28.45274pt.
+File: media/s_111.jpg Graphic file (type jpg)
+<use media/s_111.jpg>
+Package luatex.def Info: media/s_111.jpg  used on input line 630.
+(luatex.def)             Requested size: 59.2728pt x 28.45274pt.
+File: media/s_111.jpg Graphic file (type jpg)
+<use media/s_111.jpg>
+Package luatex.def Info: media/s_111.jpg  used on input line 639.
+(luatex.def)             Requested size: 59.2728pt x 28.45274pt.
+File: media/s_111.jpg Graphic file (type jpg)
+<use media/s_111.jpg>
+Package luatex.def Info: media/s_111.jpg  used on input line 646.
+(luatex.def)             Requested size: 59.2728pt x 28.45274pt.
+File: media/s_111.jpg Graphic file (type jpg)
+<use media/s_111.jpg>
+Package luatex.def Info: media/s_111.jpg  used on input line 655.
+(luatex.def)             Requested size: 59.2728pt x 28.45274pt.
+ [13<./media/s_111.jpg>] [14]
+("G:/BK Hilden/LF2/ITB16_LF2_Klausurvorbereitung/out/main.aux"
 ("G:/BK Hilden/LF2/ITB16_LF2_Klausurvorbereitung/out/titlepage.aux")
 ("G:/BK Hilden/LF2/ITB16_LF2_Klausurvorbereitung/out/lines.aux"))
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: CC8722388095621539A316A1CF916D1B;16054.
+(rerunfilecheck)             Checksum: 60651424923E2884F26D5BA1073D4916;16954.
 )
 
 Here is how much of LuaTeX's memory you used:
- 36696 strings out of 477785
- 156272,1373583 words of node,token memory allocated
- 1848 words of node memory still in use:
-   44 hlist, 2 vlist, 15 rule, 18 glue, 4 kern, 1 glyph, 135 attribute, 58 glue_
-spec, 127 attribute_list, 3 write, 47 pdf_literal, 2 pdf_action, 26 pdf_colorsta
+ 36835 strings out of 477785
+ 156267,1373583 words of node,token memory allocated
+ 1932 words of node memory still in use:
+   44 hlist, 2 vlist, 15 rule, 18 glue, 4 kern, 1 glyph, 163 attribute, 58 glue_
+spec, 141 attribute_list, 3 write, 47 pdf_literal, 2 pdf_action, 26 pdf_colorsta
 ck nodes
-   avail lists: 1:1,2:4040,3:1390,4:621,5:5043,6:169,7:9543,8:110,9:850,10:14,11
-:1012,12:1
- 55661 multiletter control sequences out of 65536+600000
+   avail lists: 1:1,2:3963,3:1351,4:565,5:5043,6:164,7:9543,8:108,9:845,10:15,11
+:1012
+ 55708 multiletter control sequences out of 65536+600000
  51 fonts using 2991583 bytes
- 89i,13n,118p,1051b,1197s stack positions out of 10000i,1000n,20000p,200000b,80000s
-<./MahaloBrother.ttf>
-Output written on main.pdf (12 pages, 2518654 bytes).
+ 89i,13n,118p,1051b,1252s stack positions out of 10000i,1000n,20000p,200000b,80000s
+<./MahaloBrother.ttf><H:/Users/amer/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/amsfonts/cm/cmmi10.pfb><H:/Users/amer/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmr10.pfb><H:/Users/amer/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on main.pdf (15 pages, 2589996 bytes).
 
-PDF statistics: 471 PDF objects out of 1000 (max. 8388607)
- 120 named destinations out of 1000 (max. 131072)
- 692 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 549 PDF objects out of 1000 (max. 8388607)
+ 140 named destinations out of 1000 (max. 131072)
+ 748 words of extra memory for PDF output out of 10000 (max. 100000000)
 

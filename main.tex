@@ -5,6 +5,7 @@
 
 
 \begin{document}
+
     \begin{titlepage}
         \include{titlepage}
     \end{titlepage}
@@ -12,6 +13,13 @@
 %%% lines to page %%%%
     \include{lines}
 %%% end lines to page %%%
+    \section{Vorwort}\label{sec:einführung}
+    \paragraph{Die Arbeit an diesem Dokument ist noch im Gange. Bitte zögern Sie nicht, \href{https://github.com/amermmohammed/LF2_Klausurvorbereitung}{dieses Repository} zu klonen, um Informationen hinzuzufügen, zu ändern, zu optimieren oder zu korrigieren, wenn Informationen bearbeitet werden müssen. Andernfalls können Sie jederzeit prüfen, ob es eine neue Version des Dokuments gibt. Ich plane jedoch, jede neue Version dieses Dokuments bis zum Sonntag, den 03.04.22 Nachmittag in unserer WhatsApp-Gruppe ITB16 zu teilen.}
+    \begin{center}
+        \color{red}
+        \colorbox{yellow}{The only copyrights is the write to copy}
+    \end{center}
+    \newpage
     \tableofcontents
     \newpage
     
@@ -515,14 +523,137 @@
             \begin{center}
                 \begin{tabular}{|c|c|c|}
                     \hline
-                    & {\color[HTML]{32CB00} PC-A} & {\color[HTML]{32CB00} PC-B (80 Plus Gold)} \\ \hline
-                    {\color[HTML]{32CB00} Wirkungsgrad des Netztei ls bei 60W in \%} & {\color[HTML]{32CB00} 43\%}    & {\color[HTML]{32CB00} 76\%} \\ \hline
-                    {\color[HTML]{32CB00} Durchschnittl iche Leistung im Betrieb}    & {\color[HTML]{32CB00} 60W}     & {\color[HTML]{32CB00} 60W}  \\ \hline
-                    {\color[HTML]{32CB00} Bezogene Leistung aus Stromnetz}           & {\color[HTML]{32CB00} 139,53W} & {\color[HTML]{FE0000} ?}    \\ \hline
+                    & {\color[HTML]{32CB00} PC-A} & {\color[HTML]{32CB00} PC-B \color[HTML]{FFD700}(80 Plus Gold)} \\ \hline
+                    {\color[HTML]{32CB00} Wirkungsgrad des Netztei ls bei 60 W in \%} & {\color[HTML]{32CB00} 43\%}    & {\color[HTML]{32CB00} 76\%} \\ \hline
+                    {\color[HTML]{32CB00} Durchschnittl iche Leistung im Betrieb}    & {\color[HTML]{32CB00} 60 W}     & {\color[HTML]{32CB00} 60 W}  \\ \hline
+                    {\color[HTML]{32CB00} Bezogene Leistung aus Stromnetz}           & {\color[HTML]{32CB00} 139,53 W} & {\color[HTML]{FE0000} ?}    \\ \hline
                     {\color[HTML]{32CB00} Energiekosten pro Monat in €}              & {\color[HTML]{CB0000} ?}       & {\color[HTML]{FE0000} ?}    \\ \hline
                 \end{tabular}
             \end{center}
 
     \subsubsection{\color{white} \colorbox{codegreen}{Lösung}}
+    \paragraph{\color{codegreen} - Energiekosten pro Monat in € bei PC-A}
+    \begin{equation*}
+        Stunden\:pro\:Monat=Stunden\:pro\:Tag\times Arbeitstagen\:pro\:Monat
+    \end{equation*}
+    \begin{equation*}
+        =>9\:\times 20\:=\:\colorbox{yellow}{180\: h}
+    \end{equation*}
+    \begin{equation*}
+        Monatlich\:Bezogene\:Leistung\:in\:\left(Wh\right)\:=\:Bezogene\:Leistung\:aus\:Stromnetz\:\left(W\right)\:\times Stunden\:pro\:Monat\:\left(h\right)
+    \end{equation*}
+    \begin{equation*}
+        =>  139,53\:W\:\times \:180\:h\:=\colorbox{yellow}{25115,4 Wh}
+    \end{equation*}
+    \begin{equation*}
+        Monatlich\:Bezogene\:Leistung\:in\:\left(kWh\right)\:=\:\frac{25115,4 Wh}{1000}=\colorbox{yellow}{25,11 kWh}
+    \end{equation*}
+    \begin{equation*}
+        Energiekosten\:pro\:Monat\:in\:€\:=Monatlich\:Bezogene\:Leistung\:\times \:1\: kWh\:kosten
+    \end{equation*}
+    \begin{equation*}
+        => 25,11\:kWh\:\times \:0,3\:€\:=\:\colorbox{yellow}{7,53 €}
+    \end{equation*}
+    \begin{center}
+        \begin{tabular}{|c|c|c|}
+            \hline
+            & {\color[HTML]{32CB00} PC-A} & {\color[HTML]{32CB00} PC-B \color[HTML]{FFD700}(80 Plus Gold)} \\ \hline
+            {\color[HTML]{32CB00} Wirkungsgrad des Netztei ls bei 60W in \%} & {\color[HTML]{32CB00} 43\%}    & {\color[HTML]{32CB00} 76\%} \\ \hline
+            {\color[HTML]{32CB00} Durchschnittl iche Leistung im Betrieb}    & {\color[HTML]{32CB00} 60 W}     & {\color[HTML]{32CB00} 60 W}  \\ \hline
+            {\color[HTML]{32CB00} Bezogene Leistung aus Stromnetz}           & {\color[HTML]{32CB00} 139,53 W} & {\color[HTML]{FE0000} ?}    \\ \hline
+            {\color[HTML]{32CB00} Energiekosten pro Monat in €}              & {\color[HTML]{CB0000} \colorbox{yellow}{7,53 €}}       & {\color[HTML]{FE0000} ?}    \\ \hline
+        \end{tabular}
+    \end{center}
+    \paragraph{\color{codegreen} - Bezogene Leistung aus Stromnetz PC-B}
+    \begin{equation*}
+        Bezogene\:Leistung\:aus\:Stromnetz\:=\:\frac{Durchschnittliche\:Leistung\:im\:Betrieb}{Wirkungsgrad\:des\:Netzteils}\cdot 100
+    \end{equation*}
+    \begin{equation*}
+        =>\frac{60\:W}{76\:}\cdot 100\:=\colorbox{yellow}{78.94 W}
+    \end{equation*}
+    \begin{center}
+        \begin{tabular}{|c|c|c|}
+            \hline
+            & {\color[HTML]{32CB00} PC-A} & {\color[HTML]{32CB00} PC-B \color[HTML]{FFD700}(80 Plus Gold)} \\ \hline
+            {\color[HTML]{32CB00} Wirkungsgrad des Netztei ls bei 60 W in \%} & {\color[HTML]{32CB00} 43\%}    & {\color[HTML]{32CB00} 76\%} \\ \hline
+            {\color[HTML]{32CB00} Durchschnittl iche Leistung im Betrieb}    & {\color[HTML]{32CB00} 60 W}     & {\color[HTML]{32CB00} 60 W}  \\ \hline
+            {\color[HTML]{32CB00} Bezogene Leistung aus Stromnetz}           & {\color[HTML]{32CB00} 139,53 W} & {\color[HTML]{FE0000} \colorbox{yellow}{78,94 W}}    \\ \hline
+            {\color[HTML]{32CB00} Energiekosten pro Monat in €}              & {\color[HTML]{CB0000} 7,53 €}       & {\color[HTML]{FE0000} ?}    \\ \hline
+        \end{tabular}
+    \end{center}
+    \paragraph{\color{codegreen} - Energiekosten pro Monat in € bei PC-B}
+    \begin{equation*}
+        Monatlich\:Bezogene\:Leistung\:in\:\left(Wh\right)\:=\:Bezogene\:Leistung\:aus\:Stromnetz\:\left(W\right)\:\times Stunden\:pro\:Monat\:\left(h\right)
+    \end{equation*}
+    \begin{equation*}
+        =>  78,94\:W\:\times \:180\:h\:=\colorbox{yellow}{14209,2 Wh}
+    \end{equation*}
+    \begin{equation*}
+        Monatlich\:Bezogene\:Leistung\:in\:\left(kWh\right)\:=\:\frac{14209,2\:Wh}{1000}=\colorbox{yellow}{14,2 kWh}
+    \end{equation*}
+    \begin{equation*}
+        Energiekosten\:pro\:Monat\:in\:€\:=Monatlich\:Bezogene\:Leistung\:\times \:1\:kWh\:kosten
+    \end{equation*}
+    \begin{equation*}
+        => 14,2\:kWh\:\times \:0,3\:€\:=\:\colorbox{yellow}{4,26 €}
+    \end{equation*}
+    \begin{center}
+        \begin{tabular}{|c|c|c|}
+            \hline
+            & {\color[HTML]{32CB00} PC-A} & {\color[HTML]{32CB00} PC-B \color[HTML]{FFD700}(80 Plus Gold)} \\ \hline
+            {\color[HTML]{32CB00} Wirkungsgrad des Netztei ls bei 60W in \%} & {\color[HTML]{32CB00} 43\%}    & {\color[HTML]{32CB00} 76\%} \\ \hline
+            {\color[HTML]{32CB00} Durchschnittl iche Leistung im Betrieb}    & {\color[HTML]{32CB00} 60 W}     & {\color[HTML]{32CB00} 60 W}  \\ \hline
+            {\color[HTML]{32CB00} Bezogene Leistung aus Stromnetz}           & {\color[HTML]{32CB00} 139,53 W} & {\color[HTML]{FE0000} 78,94 W}    \\ \hline
+            {\color[HTML]{32CB00} Energiekosten pro Monat in €}              & {\color[HTML]{CB0000} 7,53 €}       & {\color[HTML]{FE0000} \colorbox{yellow}{4,26 €}}    \\ \hline
+        \end{tabular}
+    \end{center}
+
+    \section{Tastatur und Maus}\label{sec:tastatur-und-maus}
+    \begin{center}
+        \begin{figure}[H]
+            \centering
+            \includegraphics[height=1cm]{media/s_111}\label{fig:bearb}
+        \end{figure}
+    \end{center}
+    \section{Drucker}\label{sec:drucker}
+    \begin{center}
+        \begin{figure}[H]
+            \centering
+            \includegraphics[height=1cm]{media/s_111}\label{fig:bearb2}
+        \end{figure}
+    \end{center}
+
+    \section{Anschlüsse am Mainboard}\label{sec:anschlüsse-am-mainboard}
+    \begin{center}
+        \begin{figure}[H]
+            \centering
+            \includegraphics[height=1cm]{media/s_111}\label{fig:bearb3}
+        \end{figure}
+    \end{center}
+
+    \section{Festplatten}\label{sec:festplatten}
+
+    \begin{center}
+        \begin{figure}[H]
+            \centering
+            \includegraphics[height=1cm]{media/s_111}\label{fig:bearb4}
+        \end{figure}
+    \end{center}
+    \section{RAID und NAS}\label{sec:raid-und-nas}
+    \begin{center}
+        \begin{figure}[H]
+            \centering
+            \includegraphics[height=1cm]{media/s_111}\label{fig:bearb5}
+        \end{figure}
+    \end{center}
+
+    \section{Cloud-Computing, ERP, Smart-Factory}\label{sec:cloud-computing-erp-smart-factory}
+
+    \begin{center}
+        \begin{figure}[H]
+            \centering
+            \includegraphics[height=1cm]{media/s_111}\label{fig:bearb6}
+        \end{figure}
+    \end{center}
 
 \end{document}
