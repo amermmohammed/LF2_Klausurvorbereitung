@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (MiKTeX 22.3) (format=lualatex 2022.3.31)  31 MAR 2022 14:15
+This is LuaHBTeX, Version 1.15.0 (MiKTeX 22.3) (format=lualatex 2022.3.31)  31 MAR 2022 14:19
  restricted system commands enabled.
  file:line:error style messages enabled.
 **main.tex
@@ -1607,7 +1607,7 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.18 ...rbox{BurntOrange}{Supervisorin: Herr Epping}
+l.18 ...}\colorbox{BurntOrange}{Lehrer: Herr Epping}
                                                   }}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2387,9 +2387,6 @@ Package luatex.def Info: media/s_111.jpg  used on input line 663.
 ("G:/BK Hilden/LF2/ITB16_LF2_Klausurvorbereitung/out/main.aux"
 ("G:/BK Hilden/LF2/ITB16_LF2_Klausurvorbereitung/out/titlepage.aux")
 ("G:/BK Hilden/LF2/ITB16_LF2_Klausurvorbereitung/out/lines.aux"))
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 60651424923E2884F26D5BA1073D4916;16954.
 )
@@ -2410,7 +2407,7 @@ ck nodes
 blic/amsfonts/cm/cmmi10.pfb><H:/Users/amer/AppData/Local/Programs/MiKTeX/fonts/t
 ype1/public/amsfonts/cm/cmr10.pfb><H:/Users/amer/AppData/Local/Programs/MiKTeX/f
 onts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on main.pdf (15 pages, 2590680 bytes).
+Output written on main.pdf (15 pages, 2590661 bytes).
 
 PDF statistics: 551 PDF objects out of 1000 (max. 8388607)
  142 named destinations out of 1000 (max. 131072)
