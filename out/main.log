@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.15.0 (MiKTeX 22.3) (format=lualatex 2022.3.31)  1 APR 2022 13:00
+This is LuaHBTeX, Version 1.15.0 (MiKTeX 22.3) (format=lualatex 2022.3.31)  1 APR 2022 14:09
  restricted system commands enabled.
  file:line:error style messages enabled.
 **main.tex
@@ -1371,7 +1371,80 @@ Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
 )
 (H:/Users/amer/AppData/Local/Programs/MiKTeX/tex/generic/iftex/ifpdf.sty
 Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
-)))
+))
+(H:/Users/amer/AppData/Local/Programs/MiKTeX/tex/latex/microtype/microtype.sty
+Package: microtype 2022/03/14 v3.0d Micro-typographical refinements (RS)
+\MT@toks=\toks50
+\MT@tempbox=\box132
+\MT@count=\count380
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1027.
+LaTeX Info: Redefining \leftprotrusion on input line 1028.
+LaTeX Info: Redefining \rightprotrusion on input line 1036.
+LaTeX Info: Redefining \textls on input line 1195.
+\MT@outer@kern=\dimen299
+LaTeX Info: Redefining \textmicrotypecontext on input line 1781.
+\MT@listname@count=\count381
+
+(H:/Users/amer/AppData/Local/Programs/MiKTeX/tex/latex/microtype/microtype-luat
+ex.def
+File: microtype-luatex.def 2022/03/14 v3.0d Definitions specific to luatex (RS)
+
+Lua module: microtype 2022/03/14 3.0d microtype module.
+Module microtype Info: overwriting function `keepligature' on input line 63
+LaTeX Info: Redefining \lsstyle on input line 686.
+LaTeX Info: Redefining \lslig on input line 686.
+\MT@outer@space=\skip64
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+(H:/Users/amer/AppData/Local/Programs/MiKTeX/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2022/03/14 v3.0d microtype main configuration file (RS)
+))) (H:/Users/amer/AppData/Local/Programs/MiKTeX/tex/latex/vwcol/vwcol.sty
+Package: vwcol 2008/06/24 v0.1 Variable-width multicolumn text
+
+(H:/Users/amer/AppData/Local/Programs/MiKTeX/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count382
+\calc@Bcount=\count383
+\calc@Adimen=\dimen300
+\calc@Bdimen=\dimen301
+\calc@Askip=\skip65
+\calc@Bskip=\skip66
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count384
+\calc@Cskip=\skip67
+)
+(H:/Users/amer/AppData/Local/Programs/MiKTeX/tex/latex/ragged2e/ragged2e.sty
+Package: ragged2e 2021/12/15 v3.1 ragged2e Package
+\CenteringLeftskip=\skip68
+\RaggedLeftLeftskip=\skip69
+\RaggedRightLeftskip=\skip70
+\CenteringRightskip=\skip71
+\RaggedLeftRightskip=\skip72
+\RaggedRightRightskip=\skip73
+\CenteringParfillskip=\skip74
+\RaggedLeftParfillskip=\skip75
+\RaggedRightParfillskip=\skip76
+\JustifyingParfillskip=\skip77
+\CenteringParindent=\skip78
+\RaggedLeftParindent=\skip79
+\RaggedRightParindent=\skip80
+\JustifyingParindent=\skip81
+)
+\vwcol@sep=\skip82
+\vwcol@rule=\skip83
+\vwcol@totalwidth=\skip84
+\vwcol@averagewidth=\skip85
+\vwcol@parindent=\skip86
+\vwcol@last=\count385
+\vwcol@Ncols=\count386
+\vwcol@Nlines=\count387
+\vwcol@maxrecursion=\count388
+\vwcol@box=\box133
+\vwcol@plainbox=\box134
+\vwcol@outputbox=\box135
+)
 (./settings.tex) ("G:/BK Hilden/LF2/ITB16_LF2_Klausurvorbereitung/out/main.aux"
 ("G:/BK Hilden/LF2/ITB16_LF2_Klausurvorbereitung/out/titlepage.aux")
 ("G:/BK Hilden/LF2/ITB16_LF2_Klausurvorbereitung/out/lines.aux"))
@@ -1442,17 +1515,17 @@ LaTeX Font Info:    ... okay on input line 7.
 (H:/Users/amer/AppData/Local/Programs/MiKTeX/tex/context/base/mkii/supp-pdf.mki
 i
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count380
-\scratchdimen=\dimen299
-\scratchbox=\box132
-\nofMPsegments=\count381
-\nofMParguments=\count382
-\everyMPshowfont=\toks50
-\MPscratchCnt=\count383
-\MPscratchDim=\dimen300
-\MPnumerator=\count384
-\makeMPintoPDFobject=\count385
-\everyMPtoPDFconversion=\toks51
+\scratchcounter=\count389
+\scratchdimen=\dimen302
+\scratchbox=\box136
+\nofMPsegments=\count390
+\nofMParguments=\count391
+\everyMPshowfont=\toks51
+\MPscratchCnt=\count392
+\MPscratchDim=\dimen303
+\MPnumerator=\count393
+\makeMPintoPDFobject=\count394
+\everyMPtoPDFconversion=\toks52
 )
 (H:/Users/amer/AppData/Local/Programs/MiKTeX/tex/latex/epstopdf-pkg/epstopdf-ba
 se.sty
@@ -1533,7 +1606,7 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count386
+\c@lstlisting=\count395
 Package hyperref Info: Link coloring ON on input line 7.
  (H:/Users/amer/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -1544,7 +1617,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 estring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count387
+\c@section@level=\count396
 )
 LaTeX Info: Redefining \ref on input line 7.
 LaTeX Info: Redefining \pageref on input line 7.
@@ -1554,11 +1627,30 @@ LaTeX Info: Redefining \nameref on input line 7.
 \@outlinefile=\write4
 
 \openout4 = main.out
+LaTeX Info: Redefining \microtypecontext on input line 7.
+Package microtype Info: Applying patch `item' on input line 7.
+Package microtype Info: Applying patch `toc' on input line 7.
+Package microtype Info: Applying patch `eqnum' on input line 7.
+Package microtype Info: Applying patch `footnote' on input line 7.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `alltext-nott'.
+LaTeX Info: Redefining \showhyphens on input line 7.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of spacing.
+Package microtype Info: No adjustment of kerning.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `[MahaloBrother.ttf]' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
 
 \openout2 = titlepage.aux
 
 (./titlepage.tex
-<logo-3.png, id=405, 281.05pt x 180.675pt>
+<logo-3.png, id=425, 281.05pt x 180.675pt>
 File: logo-3.png Graphic file (type png)
 <use logo-3.png>
 Package luatex.def Info: logo-3.png  used on input line 5.
@@ -1637,7 +1729,7 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 )
-<media/bglf2.png, id=406, 115.632pt x 173.448pt>
+<media/bglf2.png, id=426, 115.632pt x 173.448pt>
 File: media/bglf2.png Graphic file (type png)
 <use media/bglf2.png>
 Package luatex.def Info: media/bglf2.png  used on input line 10.
@@ -1700,12 +1792,16 @@ warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 
 
 
-] ("G:/BK Hilden/LF2/ITB16_LF2_Klausurvorbereitung/out/main.toc" [2])
+] ("G:/BK Hilden/LF2/ITB16_LF2_Klausurvorbereitung/out/main.toc"
+(H:/Users/amer/AppData/Local/Programs/MiKTeX/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
+)
+[2])
 \tf@toc=\write5
 
 \openout5 = main.toc
-
-[3]
+ [3]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\@ifnextchar' on input line 36.
@@ -1743,24 +1839,14 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\@ifnextchar' on input line 137.
 
-<media/sb-nb.png, id=538, 451.6875pt x 651.43375pt>
+<media/sb-nb.png, id=563, 451.6875pt x 651.43375pt>
 File: media/sb-nb.png Graphic file (type png)
 <use media/sb-nb.png>
 Package luatex.def Info: media/sb-nb.png  used on input line 146.
 (luatex.def)             Requested size: 90.33589pt x 130.28444pt.
 
-Underfull \hbox (badness 6300) in paragraph at lines 148--148
+Underfull \hbox (badness 3219) in paragraph at lines 148--148
 []\TU/[MahaloBrother.ttf](0)/m/n/9 Der Northbridge-Teil des Chip-sat-zes
- []
-
-
-Underfull \hbox (badness 2384) in paragraph at lines 148--148
-\TU/[MahaloBrother.ttf](0)/m/n/9 steu-ert die Hoch-ge-schwin-dig-keits-ka-
- []
-
-
-Underfull \hbox (badness 4779) in paragraph at lines 148--148
-\TU/[MahaloBrother.ttf](0)/m/n/9 rä-te mit nied-ri-ge-rer Ge-schwin-dig-keit
  []
 
 
@@ -1792,7 +1878,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\@ifnextchar' on input line 180.
 
-<media/PCHVSN-S-bridge.png, id=553, 931.48pt x 357.335pt>
+<media/PCHVSN-S-bridge.png, id=578, 931.48pt x 357.335pt>
 File: media/PCHVSN-S-bridge.png Graphic file (type png)
 <use media/PCHVSN-S-bridge.png>
 Package luatex.def Info: media/PCHVSN-S-bridge.png  used on input line 187.
@@ -1854,7 +1940,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\@ifnextchar' on input line 258.
 
-<media/panals.png, id=567, 773.89125pt x 272.01625pt>
+<media/panals.png, id=592, 773.89125pt x 272.01625pt>
 File: media/panals.png Graphic file (type png)
 <use media/panals.png>
 Package luatex.def Info: media/panals.png  used on input line 264.
@@ -1901,7 +1987,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\@ifnextchar' on input line 318.
 
-<media/bs.jpg, id=594, 660.4675pt x 371.3875pt>
+<media/bs.jpg, id=619, 660.4675pt x 371.3875pt>
 File: media/bs.jpg Graphic file (type jpg)
 <use media/bs.jpg>
 Package luatex.def Info: media/bs.jpg  used on input line 324.
@@ -1927,22 +2013,22 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\@ifnextchar' on input line 438.
 
-<media/estar.png, id=604, 222.8325pt x 227.85126pt>
+<media/estar.png, id=629, 222.8325pt x 227.85126pt>
 File: media/estar.png Graphic file (type png)
 <use media/estar.png>
 Package luatex.def Info: media/estar.png  used on input line 442.
 (luatex.def)             Requested size: 55.65018pt x 56.9055pt.
-<media/tco-certified.png, id=605, 501.875pt x 333.245pt>
+<media/tco-certified.png, id=630, 501.875pt x 333.245pt>
 File: media/tco-certified.png Graphic file (type png)
 <use media/tco-certified.png>
 Package luatex.def Info: media/tco-certified.png  used on input line 455.
 (luatex.def)             Requested size: 85.70052pt x 56.9055pt.
-<media/ECOLABEL.png, id=606, 180.675pt x 179.67125pt>
+<media/ECOLABEL.png, id=631, 180.675pt x 179.67125pt>
 File: media/ECOLABEL.png Graphic file (type png)
 <use media/ECOLABEL.png>
 Package luatex.def Info: media/ECOLABEL.png  used on input line 465.
 (luatex.def)             Requested size: 57.22168pt x 56.9055pt.
-<media/TUEV-Rheinland-Logo2.svg.png, id=607, 699.36281pt x 598.48593pt>
+<media/TUEV-Rheinland-Logo2.svg.png, id=632, 699.36281pt x 598.48593pt>
 File: media/TUEV-Rheinland-Logo2.svg.png Graphic file (type png)
 <use media/TUEV-Rheinland-Logo2.svg.png>
 Package luatex.def Info: media/TUEV-Rheinland-Logo2.svg.png  used on input line
@@ -1958,7 +2044,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\@ifnextchar' on input line 491.
 
-<media/netzteile.png, id=629, 1028.34187pt x 590.205pt>
+<media/netzteile.png, id=654, 1028.34187pt x 590.205pt>
 File: media/netzteile.png Graphic file (type png)
 <use media/netzteile.png>
 Package luatex.def Info: media/netzteile.png  used on input line 495.
@@ -1967,7 +2053,7 @@ Package luatex.def Info: media/netzteile.png  used on input line 495.
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\@ifnextchar' on input line 501.
 
-<media/80plus.png, id=630, 152.424pt x 191.625pt>
+<media/80plus.png, id=655, 152.424pt x 191.625pt>
 File: media/80plus.png Graphic file (type png)
 <use media/80plus.png>
 Package luatex.def Info: media/80plus.png  used on input line 507.
@@ -2382,7 +2468,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\@ifnextchar' on input line 643.
 
-<media/tactile_vs_linear.png, id=661, 872.50969pt x 246.9225pt>
+<media/tactile_vs_linear.png, id=686, 872.50969pt x 246.9225pt>
 File: media/tactile_vs_linear.png Graphic file (type png)
 <use media/tactile_vs_linear.png>
 Package luatex.def Info: media/tactile_vs_linear.png  used on input line 650.
@@ -2439,7 +2525,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\@ifnextchar' on input line 759.
 
-<media/Motherboard.jpg, id=690, 602.25pt x 441.65pt>
+<media/Motherboard.jpg, id=715, 602.25pt x 441.65pt>
 File: media/Motherboard.jpg Graphic file (type jpg)
 <use media/Motherboard.jpg>
 Package luatex.def Info: media/Motherboard.jpg  used on input line 763.
@@ -2448,12 +2534,12 @@ Package luatex.def Info: media/Motherboard.jpg  used on input line 763.
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\@ifnextchar' on input line 769.
 
-<media/pcie.png, id=691, 542.025pt x 218.8175pt>
+<media/pcie.png, id=716, 542.025pt x 218.8175pt>
 File: media/pcie.png Graphic file (type png)
 <use media/pcie.png>
 Package luatex.def Info: media/pcie.png  used on input line 774.
 (luatex.def)             Requested size: 211.43852pt x 85.35826pt.
-<media/pci2.jpg, id=692, 903.375pt x 137.51375pt>
+<media/pci2.jpg, id=717, 903.375pt x 137.51375pt>
 File: media/pci2.jpg Graphic file (type jpg)
 <use media/pci2.jpg>
 Package luatex.def Info: media/pci2.jpg  used on input line 775.
@@ -2463,12 +2549,12 @@ Package luatex.def Info: media/pci2.jpg  used on input line 775.
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\@ifnextchar' on input line 781.
 
-<media/VGA.jpg, id=704, 220.825pt x 134.5025pt>
+<media/VGA.jpg, id=729, 220.825pt x 134.5025pt>
 File: media/VGA.jpg Graphic file (type jpg)
 <use media/VGA.jpg>
 Package luatex.def Info: media/VGA.jpg  used on input line 786.
 (luatex.def)             Requested size: 140.14143pt x 85.35826pt.
-<media/VGA-cable.jpg, id=705, 220.825pt x 147.55125pt>
+<media/VGA-cable.jpg, id=730, 220.825pt x 147.55125pt>
 File: media/VGA-cable.jpg Graphic file (type jpg)
 <use media/VGA-cable.jpg>
 Package luatex.def Info: media/VGA-cable.jpg  used on input line 787.
@@ -2477,12 +2563,12 @@ Package luatex.def Info: media/VGA-cable.jpg  used on input line 787.
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\@ifnextchar' on input line 793.
 
-<media/dvi.jpg, id=706, 351.3125pt x 180.675pt>
+<media/dvi.jpg, id=731, 351.3125pt x 180.675pt>
 File: media/dvi.jpg Graphic file (type jpg)
 <use media/dvi.jpg>
 Package luatex.def Info: media/dvi.jpg  used on input line 798.
 (luatex.def)             Requested size: 165.97458pt x 85.35826pt.
-<media/DVI-Stecker.jpg, id=707, 422.57875pt x 271.0125pt>
+<media/DVI-Stecker.jpg, id=732, 422.57875pt x 271.0125pt>
 File: media/DVI-Stecker.jpg Graphic file (type jpg)
 <use media/DVI-Stecker.jpg>
 Package luatex.def Info: media/DVI-Stecker.jpg  used on input line 799.
@@ -2491,12 +2577,12 @@ Package luatex.def Info: media/DVI-Stecker.jpg  used on input line 799.
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\@ifnextchar' on input line 805.
 
-<media/hdmi.jpg, id=708, 292.09125pt x 173.64874pt>
+<media/hdmi.jpg, id=733, 292.09125pt x 173.64874pt>
 File: media/hdmi.jpg Graphic file (type jpg)
 <use media/hdmi.jpg>
 Package luatex.def Info: media/hdmi.jpg  used on input line 810.
 (luatex.def)             Requested size: 143.58502pt x 85.35826pt.
-<media/hdmikable.jpg, id=709, 903.375pt x 605.26125pt>
+<media/hdmikable.jpg, id=734, 903.375pt x 605.26125pt>
 File: media/hdmikable.jpg Graphic file (type jpg)
 <use media/hdmikable.jpg>
 Package luatex.def Info: media/hdmikable.jpg  used on input line 811.
@@ -2535,7 +2621,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\@ifnextchar' on input line 832.
 
-<media/hddsdd.png, id=723, 1204.5pt x 1080.035pt>
+<media/hddsdd.png, id=748, 1204.5pt x 1080.035pt>
 File: media/hddsdd.png Graphic file (type png)
 <use media/hddsdd.png>
 Package luatex.def Info: media/hddsdd.png  used on input line 838.
@@ -2549,51 +2635,161 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\@ifnextchar' on input line 859.
 
-<media/s_111.jpg, id=737, 501.875pt x 240.9pt>
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 864.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 865.
+
+<media/raid0.png, id=762, 401.5pt x 923.45pt>
+File: media/raid0.png Graphic file (type png)
+<use media/raid0.png>
+Package luatex.def Info: media/raid0.png  used on input line 879.
+(luatex.def)             Requested size: 49.48283pt x 113.81102pt.
+
+Overfull \hbox (9.70016pt too wide) in paragraph at lines 879--879
+[][]  
+ []
+
+File: media/raid0.png Graphic file (type png)
+<use media/raid0.png>
+Package luatex.def Info: media/raid0.png  used on input line 879.
+(luatex.def)             Requested size: 49.48283pt x 113.81102pt.
+
+Underfull \vbox (badness 10000) detected at line 879
+ []
+
+
+Overfull \vbox (21.41106pt too high) detected at line 879
+ []
+
+
+Overfull \hbox (314.19324pt too wide) detected at line 879
+[] | []
+ []
+
+
+Overfull \hbox (9.99998pt too wide) in paragraph at lines 879--879
+[][] []  
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 881.
+
+<media/raid1.png, id=763, 483.8075pt x 1108.14pt>
+File: media/raid1.png Graphic file (type png)
+<use media/raid1.png>
+Package luatex.def Info: media/raid1.png  used on input line 895.
+(luatex.def)             Requested size: 49.68286pt x 113.81102pt.
+
+Overfull \hbox (7.75192pt too wide) in paragraph at lines 895--895
+[][]  
+ []
+
+File: media/raid1.png Graphic file (type png)
+<use media/raid1.png>
+Package luatex.def Info: media/raid1.png  used on input line 895.
+(luatex.def)             Requested size: 49.68286pt x 113.81102pt.
+
+Underfull \vbox (badness 10000) detected at line 895
+ []
+
+
+Overfull \vbox (21.41106pt too high) detected at line 895
+ []
+
+
+Overfull \hbox (314.19324pt too wide) detected at line 895
+[] | []
+ []
+
+
+Overfull \hbox (9.99998pt too wide) in paragraph at lines 895--895
+[][] []  
+ []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 896.
+
+<media/raid5.png, id=764, 674.52pt x 1086.0575pt>
+File: media/raid5.png Graphic file (type png)
+<use media/raid5.png>
+Package luatex.def Info: media/raid5.png  used on input line 910.
+(luatex.def)             Requested size: 70.67744pt x 113.81102pt.
+
+Overfull \hbox (11.68259pt too wide) in paragraph at lines 910--910
+[][]  
+ []
+
+File: media/raid5.png Graphic file (type png)
+<use media/raid5.png>
+Package luatex.def Info: media/raid5.png  used on input line 910.
+(luatex.def)             Requested size: 70.67744pt x 113.81102pt.
+
+Underfull \vbox (badness 10000) detected at line 910
+ []
+
+
+Overfull \vbox (21.41106pt too high) detected at line 910
+ []
+
+
+Overfull \hbox (314.19324pt too wide) detected at line 910
+[] | []
+ []
+
+
+Overfull \hbox (9.99998pt too wide) in paragraph at lines 910--910
+[][] []  
+ []
+
+[19<./media/raid0.png><./media/raid1.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 911.
+
+<media/s_111.jpg, id=778, 501.875pt x 240.9pt>
 File: media/s_111.jpg Graphic file (type jpg)
 <use media/s_111.jpg>
-Package luatex.def Info: media/s_111.jpg  used on input line 867.
+Package luatex.def Info: media/s_111.jpg  used on input line 918.
 (luatex.def)             Requested size: 59.2728pt x 28.45274pt.
-File: media/s_111.jpg Graphic file (type jpg)
-<use media/s_111.jpg>
-Package luatex.def Info: media/s_111.jpg  used on input line 876.
-(luatex.def)             Requested size: 59.2728pt x 28.45274pt.
-[19<./media/s_111.jpg>]
+[20<./media/raid5.png><./media/s_111.jpg>]
 ("G:/BK Hilden/LF2/ITB16_LF2_Klausurvorbereitung/out/main.aux"
 ("G:/BK Hilden/LF2/ITB16_LF2_Klausurvorbereitung/out/titlepage.aux")
 ("G:/BK Hilden/LF2/ITB16_LF2_Klausurvorbereitung/out/lines.aux"))
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 
 Package rerunfilecheck Warning: File `main.out' has changed.
 (rerunfilecheck)                Rerun to get outlines right
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: C06F1BDF9F9ECCD96A7D166B9BB86562;25124
-(rerunfilecheck)             After:  12D227DDDA32ACAEB448FB28997A8F53;25129.
+(rerunfilecheck)             Before: 3BC1D0CAA289E33AA989D683EDCD782F;26356
+(rerunfilecheck)             After:  57AB1F3BB072D3B55D5F372EB7114006;26348.
 )
 
 Here is how much of LuaTeX's memory you used:
- 37171 strings out of 477785
- 156267,1648299 words of node,token memory allocated
- 1932 words of node memory still in use:
-   44 hlist, 2 vlist, 15 rule, 18 glue, 4 kern, 1 glyph, 163 attribute, 58 glue_
-spec, 141 attribute_list, 3 write, 47 pdf_literal, 2 pdf_action, 26 pdf_colorsta
-ck nodes
-   avail lists: 1:1,2:3963,3:1352,4:566,5:5056,6:164,7:9543,8:107,9:845,10:15,11
-:1012
- 55908 multiletter control sequences out of 65536+600000
+ 39159 strings out of 477785
+ 195731,1648299 words of node,token memory allocated
+ 2089 words of node memory still in use:
+   45 hlist, 2 vlist, 15 rule, 1 local_par, 20 glue, 5 kern, 1 penalty, 3 glyph,
+ 165 attribute, 78 glue_spec, 142 attribute_list, 3 write, 47 pdf_literal, 2 pdf
+_action, 26 pdf_colorstack nodes
+   avail lists: 1:6,2:4135,3:1353,4:596,5:5063,6:165,7:9601,8:107,9:845,10:24,11
+:1012,12:1
+ 57767 multiletter control sequences out of 65536+600000
  51 fonts using 2991583 bytes
- 89i,13n,118p,1268b,1261s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 89i,13n,118p,1268b,1293s stack positions out of 10000i,1000n,20000p,200000b,80000s
 <./MahaloBrother.ttf><H:/Users/amer/AppData/Local/Programs/MiKTeX/fonts/type1/pu
 blic/amsfonts/cm/cmmi10.pfb><H:/Users/amer/AppData/Local/Programs/MiKTeX/fonts/t
 ype1/public/amsfonts/cm/cmr10.pfb><H:/Users/amer/AppData/Local/Programs/MiKTeX/f
 onts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on main.pdf (20 pages, 3857367 bytes).
+Output written on main.pdf (21 pages, 3975793 bytes).
 
-PDF statistics: 774 PDF objects out of 1000 (max. 8388607)
- 201 named destinations out of 1000 (max. 131072)
- 996 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 818 PDF objects out of 1000 (max. 8388607)
+ 213 named destinations out of 1000 (max. 131072)
+ 1036 words of extra memory for PDF output out of 10000 (max. 100000000)
 

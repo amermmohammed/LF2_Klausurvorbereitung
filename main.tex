@@ -861,13 +861,55 @@
     \paragraph{\color{codegreen}Solid-State Hybrid Drives, kurz SSHDs, sind Hybrid-Festplatten, die aus einer herkömmlichen Festplatte mit einem zusätzlichen Flash-Speicher bestehen. Der Flash-Speicher dient als Datenpuffer für Schreib- und Lesezugriffe und soll für kürzere Zugriffszeiten sorgen.}
 
     \section{RAID und NAS}\label{sec:raid-und-nas}
-    \begin{center}
+    \subsection{\color{red}Beschreibe die Funktionsweise von RAID 0, 1 und 5 und deren Vor- und Nachteile}\label{subsec:beschreibe-die-funktionsweise-von-raid-0-1-und-5}
+    \subsubsection{\color{codegreen}RAID 0}
+    \paragraph{\color{codegreen}Bei einem RAID 0 werden mindestens 2 Festplatten benötigt. Die Daten werden dabei auf mehrere Festplatten verteilt, wenn eine Festplatte ausfällt, wären alle Daten verloren. Ein RAID 0 ist ein Verfahren ohne irgendeinen Schutz vor Verlust, da aber von beiden Festplatten gleichzeitig gelesen werden kann, ist die Lese- und Schreibgeschwindigkeit sehr hoch. Die Nutzungskapazität der verfügbaren Laufwerke beträgt 100\%.\\}
+    \begin{vwcol}[widths={0.6,0.4}]
+        \begin{tabular}{ll}
+            \multicolumn{2}{c}{RAID 0}                                                  \\ \hline
+            \multicolumn{1}{l|}{Technik}            & Streifen                          \\
+            \multicolumn{1}{l|}{Vorteil}            & Extrem schnell                    \\
+            \multicolumn{1}{l|}{Nachteil}           & Keine Ausfallsicherheit von Daten \\
+            \multicolumn{1}{l|}{Anwendungsbeispiel} & Laufwerk für Datenbankserver
+        \end{tabular}
         \begin{figure}[H]
-            \centering
-            \includegraphics[height=1cm]{media/s_111}\label{fig:bearb5}
+            \includegraphics[height=4cm]{media/raid0}
+            \label{fig:raid0}
         \end{figure}
-    \end{center}
+    \end{vwcol}
 
+    \subsubsection{\color{codegreen}RAID 1}
+    \paragraph{\color{codegreen}Bei einem RAID 1 werden mindestens 2 Festplatten benötigt. Dieselben Daten werden dabei auf beiden Festplatten gespeichert. Dies hat Vor- und Nachteile: Einerseits sind die Daten noch vorhanden, wenn eine Festplatte ausfallen würde, andererseits braucht man die doppelte Anzahl Festplatten, weil die effektive Speicherkapazität halbiert wird. Die Nutzungskapazität der verfügbaren Laufwerke beträgt daher 50\%.\\}
+        \begin{vwcol}[widths={0.6,0.4}]
+            \begin{tabular}{ll}
+                \multicolumn{2}{c}{RAID 1}                                                \\ \hline
+                \multicolumn{1}{l|}{Technik}            & Spiegelung                      \\
+                \multicolumn{1}{l|}{Vorteil}            & Schnell mit Ausfallsicherheit   \\
+                \multicolumn{1}{l|}{Nachteil}           & Tiefe Nutzungskapazität         \\
+                \multicolumn{1}{l|}{Anwendungsbeispiel} & Laufwerk für das Betriebssystem
+            \end{tabular}
+            \begin{figure}[H]
+                \includegraphics[height=4cm]{media/raid1}
+                \label{fig:raid1}
+            \end{figure}
+        \end{vwcol}
+    \subsubsection{\color{codegreen}RAID 5}
+    \paragraph{\color{codegreen}Bei einem RAID 5 benötigt man mindestens 3 Festplatten. Die Daten werden auf alle Festplatten verteilt. Zusätzlich wird ein Paritätswert errechnet und gespeichert. Wenn eine Festplatte ausfallen sollte, kann der RAID-Kontroller anhand dieser Parität die fehlenden Daten errechnen. Dieses Verfahren benötigt zwar eine Festplatte weniger als ein entsprechendes RAID 1 System, es muss aber für alle Daten eine Paritätswert berechnet werden, was mehr Rechenleistung benötigt. Ein RAID 5-System kann aus maximal 16 Festplatten bestehen. Die Nutzungskapazität der im RAID 5 verfügbaren Laufwerke beträgt 67\% - 94\% (Gesamtkapazität minus 1 Laufwerk).\\}
+    \begin{vwcol}[widths={0.6,0.4}]
+        \begin{tabular}{ll}
+            \multicolumn{2}{c}{RAID 5}                                                \\ \hline
+            \multicolumn{1}{l|}{Technik}            & Streifen mit Parität            \\
+            \multicolumn{1}{l|}{Vorteil}            & Ausfallsicherheit               \\
+            \multicolumn{1}{l|}{Nachteil}           & Langsame Schreibgeschwindigkeit \\
+            \multicolumn{1}{l|}{Anwendungsbeispiel} & Laufwerke für Archivsysteme
+        \end{tabular}
+        \begin{figure}[H]
+            \includegraphics[height=4cm]{media/raid5}
+            \label{fig:raid5}
+        \end{figure}
+    \end{vwcol}
+    \subsection{\color{red} Erläutere den Nutzen von einem NAS}\label{subsec:erläutere-den-nutzen-von-einem-nas}
+    \paragraph{\color{codegreen}NAS ermöglicht es Anwendern, effektiver zusammenzuarbeiten und Daten gemeinsam zu nutzen, insbesondere Arbeitsteams, die sich an entfernten Standorten oder in verschiedenen Zeitzonen befinden. Ein NAS stellt eine Verbindung zu einem drahtlosen Router her, so dass in verteilten Arbeitsumgebungen der Zugriff auf Dateien und Ordner von jedem mit dem Netzwerk verbundenen Gerät aus problemlos möglich ist. Unternehmen setzen in der Regel eine NAS-Umgebung als Grundlage für eine Private Cloud ein.}
     \section{Cloud-Computing, ERP, Smart-Factory}\label{sec:cloud-computing-erp-smart-factory}
 
     \begin{center}
