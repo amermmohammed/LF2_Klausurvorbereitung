@@ -123,6 +123,25 @@
 \contentsline {subsubsection}{\numberline {10.2.3}\color {codegreen}Matrixdruckern}{16}{subsubsection.10.2.3}%
 \contentsline {paragraph}{\color {codegreen} Bei einem Nadeldrucker wird ein mit Tinte getränktes oder mit Kohlenstoff beschichtetes Farbband an einem Druckkopf vorbeigezogen, während Nadeln die Punkte auf das Papier hämmern. Die vertikale Anzahl der Nadeln bestimmt die Auflösung des Druckers, es gibt von 7 bis 48 Nadeln zahlreiche Varianten, wobei ein 24-Nadel-Drucker technisch 360 dpi Auflösung erreichen kann.}{16}{section*.65}%
 \contentsline {section}{\numberline {11}Anschlüsse am Mainboard}{16}{section.11}%
-\contentsline {section}{\numberline {12}Festplatten}{16}{section.12}%
-\contentsline {section}{\numberline {13}RAID und NAS}{16}{section.13}%
-\contentsline {section}{\numberline {14}Cloud-Computing, ERP, Smart-Factory}{16}{section.14}%
+\contentsline {subsection}{\numberline {11.1}\color {red} Benenne die verschiedenen Anschlüsse eines Mainboards und erläutere deren Einsatzzwecke}{16}{subsection.11.1}%
+\contentsline {subsubsection}{\numberline {11.1.1}\color {codegreen}PCIe}{16}{subsubsection.11.1.1}%
+\contentsline {paragraph}{\color {codegreen}Peripheral Component Interconnect Express (PCIe) ist eine schnelle interne Schnittstelle für Erweiterungskarten in Computer-Systemen. Mit der Einführung von PCIe im Jahr 2004 wurde dem AGP als Grafikkarten-Schnittstelle ein Ende gesetzt und auch der PCI als internes Computer-Bussystem abgelöst.}{16}{section*.67}%
+\contentsline {subsubsection}{\numberline {11.1.2}\color {codegreen}VGA-Port}{17}{subsubsection.11.1.2}%
+\contentsline {paragraph}{\color {codegreen}VGA-Anschluss (engl. Video Graphics Array) umfasst die Spezifikation einer analogen elektronischen Schnittstelle zur Übertragung von Bewegtbildern zwischen Grafikkarten und Anzeigegeräten sowie Spezifikationen für hierzu geeignete Stecker und Kabel.}{17}{section*.69}%
+\contentsline {subsubsection}{\numberline {11.1.3}\color {codegreen}DVI-Port}{17}{subsubsection.11.1.3}%
+\contentsline {paragraph}{\color {codegreen}DVI (Digital Video Interface) ist eine Schnittstelle für die digitale und analoge Übertragung von Videodaten. Sie gilt als digitaler Nachfolger des S-VGA-Standards und hat sich über viele Jahre neben HDMI als Verbindung zwischen Computern und Monitoren etabliert.}{17}{section*.71}%
+\contentsline {subsubsection}{\numberline {11.1.4}\color {codegreen}HDMI}{17}{subsubsection.11.1.4}%
+\contentsline {paragraph}{\color {codegreen}HDMI ist eine Schnittstelle zur Übertragung von hochauflösenden, digitalen Video- und Audio-Daten. HDMI verbindet Abspielgeräte, wie Computer oder Video-Player mit einem Display oder Beamer. HDMI baut auf DVI auf. Somit ist HDMI zu DVI abwärtskompatibel.}{17}{section*.73}%
+\contentsline {subsubsection}{\numberline {11.1.5}\color {codegreen}Chipsatz}{17}{subsubsection.11.1.5}%
+\contentsline {paragraph}{\color {codegreen}Ein Chipsatz besteht aus mehreren Schaltkreisen, die zusammen eine Einheit bilden. Der Chipsatz funktioniert als Verbindungsglied zwischen den einzelnen Komponenten eines Computers. Das heißt der Chipsatz verbindet CPU mit RAM, ROM und allen anderen Komponenten, Schnittstellen und Bausätzen.}{17}{section*.75}%
+\contentsline {subsubsection}{\numberline {11.1.6}\color {codegreen}CPU-Sockel}{18}{subsubsection.11.1.6}%
+\contentsline {paragraph}{\color {codegreen}Auf dem sogenannten Prozessorsockel wird die CPU (Central Processing Unit), der Hauptprozessor, angebracht.}{18}{section*.76}%
+\contentsline {subsubsection}{\numberline {11.1.7}\color {codegreen}RAM-Steckplätze}{18}{subsubsection.11.1.7}%
+\contentsline {paragraph}{\color {codegreen}Steckplätze für den RAM (Random Access Memory), den Arbeitsspeicher, gibt es in der Regel zwei bis vier.}{18}{section*.77}%
+\contentsline {subsubsection}{\numberline {11.1.8}\color {codegreen}BIOS-Chip}{18}{subsubsection.11.1.8}%
+\contentsline {paragraph}{\color {codegreen}Das BIOS (Basic Input/Output System) führt bei jedem Start des Computers einen System-Check durch und initialisiert alle angeschlossenen Hardware-Komponenten.}{18}{section*.78}%
+\contentsline {subsubsection}{\numberline {11.1.9}\color {codegreen}SATA-Anschlüsse}{18}{subsubsection.11.1.9}%
+\contentsline {paragraph}{\color {codegreen}Bei einem SATA-Anschluss (Serial Advanced Attachement) handelt es sich um einen Standard für die Datenübertragung, der die älteren IDE-Anschlüsse aufgrund einer besseren Datentransferrate abgelöst hat. An die SATA-Anschlüsse werden Festplatten (HDD oder SSD) und optische Laufwerke angeschlossen.}{18}{section*.79}%
+\contentsline {section}{\numberline {12}Festplatten}{18}{section.12}%
+\contentsline {section}{\numberline {13}RAID und NAS}{18}{section.13}%
+\contentsline {section}{\numberline {14}Cloud-Computing, ERP, Smart-Factory}{18}{section.14}%

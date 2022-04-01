@@ -756,12 +756,74 @@
 
 
     \section{Anschlüsse am Mainboard}\label{sec:anschlüsse-am-mainboard}
+    \subsection{\color{red} Benenne die verschiedenen Anschlüsse eines Mainboards und erläutere deren Einsatzzwecke}\label{subsec:benenne-und-erläuter-den-einsatzzwecke-von-der-verschiedenen-anschlüsse-eines-mainboards}
     \begin{center}
         \begin{figure}[H]
             \centering
-            \includegraphics[height=1cm]{media/s_111}\label{fig:bearb3}
+            \includegraphics[height=10cm]{media/Motherboard}
+            \captionsetup{labelformat=empty}
+            \caption{Hauptplatine}
+            \label{fig:Motherboard}
         \end{figure}
     \end{center}
+    \subsubsection{\color{codegreen}PCIe}
+    \paragraph{\color{codegreen}Peripheral Component Interconnect Express (PCIe) ist eine schnelle interne Schnittstelle für Erweiterungskarten in Computer-Systemen. Mit der Einführung von PCIe im Jahr 2004 wurde dem AGP als Grafikkarten-Schnittstelle ein Ende gesetzt und auch der PCI als internes Computer-Bussystem abgelöst.}
+    \begin{center}
+        \begin{figure}[H]
+            \centering
+            \includegraphics[height=3cm]{media/pcie}
+            \includegraphics[height=2cm]{media/pci2}
+            \captionsetup{labelformat=empty}
+            \caption{Vergleich verschiedener PCIe-Kartengrößen }
+            \label{fig:pcie}
+        \end{figure}
+    \end{center}
+    \subsubsection{\color{codegreen}VGA-Port}
+    \paragraph{\color{codegreen}VGA-Anschluss (engl. Video Graphics Array) umfasst die Spezifikation einer analogen elektronischen Schnittstelle zur Übertragung von Bewegtbildern zwischen Grafikkarten und Anzeigegeräten sowie Spezifikationen für hierzu geeignete Stecker und Kabel.}
+    \begin{center}
+        \begin{figure}[H]
+            \centering
+            \includegraphics[height=3cm]{media/VGA}
+            \includegraphics[height=3cm]{media/VGA-cable}
+            \captionsetup{labelformat=empty}
+            \caption{VGA Port und Stecker}
+            \label{fig:VGA}
+        \end{figure}
+    \end{center}
+    \subsubsection{\color{codegreen}DVI-Port}
+    \paragraph{\color{codegreen}DVI (Digital Video Interface) ist eine Schnittstelle für die digitale und analoge Übertragung von Videodaten. Sie gilt als digitaler Nachfolger des S-VGA-Standards und hat sich über viele Jahre neben HDMI als Verbindung zwischen Computern und Monitoren etabliert.}
+    \begin{center}
+        \begin{figure}[H]
+            \centering
+            \includegraphics[height=3cm]{media/dvi}
+            \includegraphics[height=3cm]{media/DVI-Stecker}
+            \captionsetup{labelformat=empty}
+            \caption{DVI Port und Stecker}
+            \label{fig:dvi}
+        \end{figure}
+    \end{center}
+    \subsubsection{\color{codegreen}HDMI}
+    \paragraph{\color{codegreen}HDMI ist eine Schnittstelle zur Übertragung von hochauflösenden, digitalen Video- und Audio-Daten. HDMI verbindet Abspielgeräte, wie Computer oder Video-Player mit einem Display oder Beamer. HDMI baut auf DVI auf. Somit ist HDMI zu DVI abwärtskompatibel.}
+    \begin{center}
+        \begin{figure}[H]
+            \centering
+            \includegraphics[height=3cm]{media/hdmi}
+            \includegraphics[height=3cm]{media/hdmikable}
+            \captionsetup{labelformat=empty}
+            \caption{HDMI Port und Kable}
+            \label{fig:hdmi}
+        \end{figure}
+    \end{center}
+    \subsubsection{\color{codegreen}Chipsatz}
+    \paragraph{\color{codegreen}Ein Chipsatz besteht aus mehreren Schaltkreisen, die zusammen eine Einheit bilden. Der Chipsatz funktioniert als Verbindungsglied zwischen den einzelnen Komponenten eines Computers. Das heißt der Chipsatz verbindet CPU mit RAM, ROM und allen anderen Komponenten, Schnittstellen und Bausätzen.}
+    \subsubsection{\color{codegreen}CPU-Sockel}
+    \paragraph{\color{codegreen}Auf dem sogenannten Prozessorsockel wird die CPU (Central Processing Unit), der Hauptprozessor, angebracht.}
+    \subsubsection{\color{codegreen}RAM-Steckplätze}
+    \paragraph{\color{codegreen}Steckplätze für den RAM (Random Access Memory), den Arbeitsspeicher, gibt es in der Regel zwei bis vier.}
+    \subsubsection{\color{codegreen}BIOS-Chip}
+    \paragraph{\color{codegreen}Das BIOS (Basic Input/Output System) führt bei jedem Start des Computers einen System-Check durch und initialisiert alle angeschlossenen Hardware-Komponenten.}
+    \subsubsection{\color{codegreen}SATA-Anschlüsse}
+    \paragraph{\color{codegreen}Bei einem SATA-Anschluss (Serial Advanced Attachement) handelt es sich um einen Standard für die Datenübertragung, der die älteren IDE-Anschlüsse aufgrund einer besseren Datentransferrate abgelöst hat. An die SATA-Anschlüsse werden Festplatten (HDD oder SSD) und optische Laufwerke angeschlossen.}
 
     \section{Festplatten}\label{sec:festplatten}
 
@@ -771,6 +833,7 @@
             \includegraphics[height=1cm]{media/s_111}\label{fig:bearb4}
         \end{figure}
     \end{center}
+    
     \section{RAID und NAS}\label{sec:raid-und-nas}
     \begin{center}
         \begin{figure}[H]
