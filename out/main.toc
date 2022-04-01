@@ -143,5 +143,13 @@
 \contentsline {subsubsection}{\numberline {11.1.9}\color {codegreen}SATA-Anschlüsse}{18}{subsubsection.11.1.9}%
 \contentsline {paragraph}{\color {codegreen}Bei einem SATA-Anschluss (Serial Advanced Attachement) handelt es sich um einen Standard für die Datenübertragung, der die älteren IDE-Anschlüsse aufgrund einer besseren Datentransferrate abgelöst hat. An die SATA-Anschlüsse werden Festplatten (HDD oder SSD) und optische Laufwerke angeschlossen.}{18}{section*.79}%
 \contentsline {section}{\numberline {12}Festplatten}{18}{section.12}%
-\contentsline {section}{\numberline {13}RAID und NAS}{18}{section.13}%
-\contentsline {section}{\numberline {14}Cloud-Computing, ERP, Smart-Factory}{18}{section.14}%
+\contentsline {subsection}{\numberline {12.1}\color {red} Erläutere die Funktionsweise einer HDD und einer SSD}{18}{subsection.12.1}%
+\contentsline {subsubsection}{\numberline {12.1.1}\color {codegreen} HDD}{18}{subsubsection.12.1.1}%
+\contentsline {paragraph}{\color {codegreen}Eine Festplatte ist ein Massenspeicher, bei dem die Daten magnetisch gespeichert werden. Im Inneren einer Festplatte befinden sich deshalb eine oder mehrere magnetisierbare Scheiben, die auf einer Spindel gestapelt sind und rotieren. Ähnlich einem Plattenspieler wandern mehrere Schreib-/Leseköpfe über den Magnetscheiben von außen nach innen und zurück. Sie schreiben Informationen, indem sie die Plattenoberfläche magnetisieren, und lesen Informationen, indem sie die Magnetisierung abtasten.}{18}{section*.80}%
+\contentsline {subsubsection}{\numberline {12.1.2}\color {codegreen}SSD}{18}{subsubsection.12.1.2}%
+\contentsline {paragraph}{\color {codegreen}Die Speicherung auf einer SSD wird über Halbleiter realisiert, ähnlich der Speicherbausteine für den Arbeitsspeicher. Die Speichermethode entspricht der, die Sie von Speicherkarten oder USB-Stick kennen. Im Gegensatz zur HDD besitzt eine SSD keinen Lese- und Schreibkopf und auch sonst keine mechanisch beweglichen Teile. Dadurch ist der Zugriff auf Daten deutlich schneller.}{18}{section*.81}%
+\contentsline {subsection}{\numberline {12.2}\color {red}Benenne Vor- und Nachteile zwischen einer SSD und einer HDD}{19}{subsection.12.2}%
+\contentsline {subsection}{\numberline {12.3}\color {red} Beschreibe den Aufbau einer SSHD}{19}{subsection.12.3}%
+\contentsline {paragraph}{\color {codegreen}Solid-State Hybrid Drives, kurz SSHDs, sind Hybrid-Festplatten, die aus einer herkömmlichen Festplatte mit einem zusätzlichen Flash-Speicher bestehen. Der Flash-Speicher dient als Datenpuffer für Schreib- und Lesezugriffe und soll für kürzere Zugriffszeiten sorgen.}{19}{section*.83}%
+\contentsline {section}{\numberline {13}RAID und NAS}{19}{section.13}%
+\contentsline {section}{\numberline {14}Cloud-Computing, ERP, Smart-Factory}{19}{section.14}%

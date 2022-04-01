@@ -826,14 +826,40 @@
     \paragraph{\color{codegreen}Bei einem SATA-Anschluss (Serial Advanced Attachement) handelt es sich um einen Standard für die Datenübertragung, der die älteren IDE-Anschlüsse aufgrund einer besseren Datentransferrate abgelöst hat. An die SATA-Anschlüsse werden Festplatten (HDD oder SSD) und optische Laufwerke angeschlossen.}
 
     \section{Festplatten}\label{sec:festplatten}
+    \subsection{\color{red} Erläutere die Funktionsweise einer HDD und einer SSD}\label{subsec:erläutere-die-funktionsweise-einer-hdd-und-einer-ssd}
+    \subsubsection{\color{codegreen} HDD}
+    \paragraph{\color{codegreen}Eine Festplatte ist ein Massenspeicher, bei dem die Daten magnetisch gespeichert werden. Im Inneren einer Festplatte befinden sich deshalb eine oder mehrere magnetisierbare Scheiben, die auf einer Spindel gestapelt sind und rotieren. Ähnlich einem Plattenspieler wandern mehrere Schreib-/Leseköpfe über den Magnetscheiben von außen nach innen und zurück. Sie schreiben Informationen, indem sie die Plattenoberfläche magnetisieren, und lesen Informationen, indem sie die Magnetisierung abtasten.}
+    \subsubsection{\color{codegreen}SSD}
+    \paragraph{\color{codegreen}Die Speicherung auf einer SSD wird über Halbleiter realisiert, ähnlich der Speicherbausteine für den Arbeitsspeicher. Die Speichermethode entspricht der, die Sie von Speicherkarten oder USB-Stick kennen. Im Gegensatz zur HDD besitzt eine SSD keinen Lese- und Schreibkopf und auch sonst keine mechanisch beweglichen Teile. Dadurch ist der Zugriff auf Daten deutlich schneller.}
 
     \begin{center}
         \begin{figure}[H]
             \centering
-            \includegraphics[height=1cm]{media/s_111}\label{fig:bearb4}
+            \includegraphics[height=6cm]{media/hddsdd}
+            \captionsetup{labelformat=empty}
+            \caption{HDD vs SSD}
+            \label{fig:hddsdd}
         \end{figure}
     \end{center}
-    
+    \subsection{\color{red}Benenne Vor- und Nachteile zwischen einer SSD und einer HDD}\label{subsec:bennenne-vor--und-nachteile-zwischen-einer-ssd-und-einer-hdd}
+    \begin{center}
+        \begin{tabular}{|l|l|l|}
+            \hline
+            {\color[HTML]{3531FF} } &
+                {\color[HTML]{3531FF} SSD} &
+                {\color[HTML]{3531FF} HDD} \\ \hline
+            {\color[HTML]{009901} Vorteile} &
+                {\color[HTML]{009901} \begin{tabular}[c]{@{}l@{}}- in der Regel schnellste Transferraten\\ - geringste Zugriffszeiten\\ - wsentlich geringerer Stromverbrauch\\ - stoßfest\\ - lautloser Betrieb\\ - geringes Gewicht und kompaktere Maße (SATA-SSDs\end{tabular}} &
+                {\color[HTML]{009901} \begin{tabular}[c]{@{}l@{}}- höchste Speicherkapazität\\ -langlebiger als SSDs\\ -sehr günstiger Preis\end{tabular}} \\ \hline
+            {\color[HTML]{9A0000} Nachteile} &
+                {\color[HTML]{9A0000} \begin{tabular}[c]{@{}l@{}}- immer noch viel teurer als HHD\\ - begrenzte Speicherkapazität\\ - begrenze Anzahl an Schreibvorgängen je Speicherzelle\end{tabular}} &
+                {\color[HTML]{9A0000} \begin{tabular}[c]{@{}l@{}}- langsamer als SSDs und SSDHs\\ - höhere Zugriffzeiten \\ - höherer Stromverbrauch\\ - anfällig gegen Erschütterungen \\ - höheres Gewicht\\ - lauter Betrieb\end{tabular}} \\ \hline
+        \end{tabular}
+    \end{center}
+    \subsection{\color{red} Beschreibe den Aufbau einer SSHD}\label{subsec:bescreibe-den-aufbau-einer-sshd}
+
+    \paragraph{\color{codegreen}Solid-State Hybrid Drives, kurz SSHDs, sind Hybrid-Festplatten, die aus einer herkömmlichen Festplatte mit einem zusätzlichen Flash-Speicher bestehen. Der Flash-Speicher dient als Datenpuffer für Schreib- und Lesezugriffe und soll für kürzere Zugriffszeiten sorgen.}
+
     \section{RAID und NAS}\label{sec:raid-und-nas}
     \begin{center}
         \begin{figure}[H]
